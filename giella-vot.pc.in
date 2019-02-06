@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+datadir=@datarootdir@
+gtlang=vot
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-vot
+Description: Finite-state language processing tools for Votic
+URL: http://divvun.no/doc/index.html
+Version: @VERSION@
