@@ -19,21 +19,11 @@
 HFST_LEXC_LOCAL_FLAGS=
 
 # Set this to name of lexc file containing Multichar_Symbols and LEXICON Root
-GT_LEXC_ROOT=$(srcdir)/root.lexc
+GT_LEXC_ROOT=root.lexc
 
 # Set this to the names of all regular lexc source files:
 GT_LEXC_SRCS_L1_L2=\
-			 affixes/adjectives.lexc  \
-			 affixes/nouns.lexc       \
-			 affixes/propernouns.lexc \
-			 affixes/symbols.lexc     \
-			 affixes/verbs.lexc       \
-			 stems/adjectives.lexc    \
-			 stems/nouns.lexc         \
-			 stems/numerals.lexc      \
-			 stems/prefixes.lexc      \
-			 stems/pronouns.lexc      \
-			 stems/verbs.lexc
+			 affixes/symbols.lexc
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
 # that differ between the regular L1 and the L2 analysers below, in L1 and
@@ -51,8 +41,10 @@ GT_LEXC_L2_SRCS=\
 			$(L2)
 
 # Set this to the names of all generated lexc files, if any
-GENERATED_LEXC_SRCS=generated_files/punctuation.lexc \
-                    generated_files/symbols.lexc
+GENERATED_LEXC_SRCS=generated_files/punctuation.lexc   \
+                    generated_files/symbols.lexc       \
+                    generated_files/affixes_nouns.lexc \
+                    generated_files/stems_nouns.lexc
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=
@@ -61,7 +53,7 @@ GT_XML_SRCS=
 GT_LOCAL_SRCS=
 
 # Define local xfscripts here:
-GT_LOCAL_XFSCRIPT_SRCS=
+GT_LOCAL_XFSCRIPT_SRCS=guesser.xfscript
 
 # Define here any additional sources just included in the distro:
 GT_DISTRO_SRCS=
@@ -76,6 +68,27 @@ GT_DISTRO_SRCS=
 
 GIELLA_LOCAL_TARGETS=
 
+root.lexc: ext-github_kristiank-vot/root.lexc
+	$(AM_V_CP)cp -f $< $@
+
+generated_files/affixes_%.lexc: ext-github_kristiank-vot/affixes/%.lexc
+	$(AM_V_CP)cp -f $< $@
+
+generated_files/stems_%.lexc: ext-github_kristiank-vot/stems/%.lexc
+	$(AM_V_CP)cp -f $< $@
+
+guesser.xfscript: ext-github_kristiank-vot/paradigms.xfscript
+	$(AM_V_CP)cp -f $< $@
+
+lexicon.%: lexicon.tmp.% guesser.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+			[ \
+			  [ @\"guesser.$*\" \"+Err/Guess\":0 ] \
+			| @\"$<\" ] \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
+
 ### END: Local processing: ###
 
 ####### Other targets: ###########
@@ -83,7 +96,7 @@ GIELLA_LOCAL_TARGETS=
 # easily get updates from the template dir through svn merge.
 clean-local:
 	-rm -f *.all.* *fst *.foma *.script generated_files/*.lexc lexicon.*
-	-rm -f url.lexc *.tmp.*
+	-rm -f url.lexc *.tmp.* root.lexc
 
 include $(top_srcdir)/am-shared/src-morphology-dir-include.am
 
