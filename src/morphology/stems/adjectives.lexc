@@ -1,8 +1,0 @@
-!! Adjectives
-!  ----------
-!! Adjectives in the Votic language describe things.
-
-LEXICON Adjectives
-adjective    Comparisons   ;
-
-! vim: set ft=xfst-lexc:
