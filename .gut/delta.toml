@@ -1,14 +1,8 @@
-# This template merge lang-config file should be stored in
-# .gut/ of each language repo. It contains:
-# - template: url of template repo
-# - rev_id: automatically maintained
-# - template_sha: sha of last known version merged with this language
-# - replacements: list of string replacements: placeholder -> real string
 template = "https://github.com/giellalt/template-lang-und"
-rev_id = 1
-template_sha = "cc09eb0168024b3d0fee9e69e98b78d579f96ce9"
+rev_id = 14
+template_sha = "76687ec22319907df8c2118f1772f472ad3a249a"
 
 [replacements]
-__UND__ = "vot"
 __UND2C__ = "vot"
 __UNDEFINED__ = "Votic"
+__UND__ = "vot"
