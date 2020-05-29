@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+# This gold standard is automatically generated from the Votic dictionary
+# at Språkbanken (https://spraakbanken.gu.se/karp/#?mode=votiska)
+
+Tests:
+  Noun - sinin :   # should decline like the paradigm 'asSinin'
+    sinin+N+Sg+Nom: sinin
+    sinin+N+Pl+Nom: sinized
+    sinin+N+Sg+Gen: sinize
+    sinin+N+Pl+Gen: sinizije
+    sinin+N+Sg+Par: sinisse
+    sinin+N+Pl+Par: [sinizii, siniziit]
+    sinin+N+Sg+Ill: [sinize, sinizese]
+    sinin+N+Pl+Ill: [sinizije, sinizise]
+    sinin+N+Sg+Ine: sinizez
+    sinin+N+Pl+Ine: siniziz
+    sinin+N+Sg+Ela: sinizess
+    sinin+N+Pl+Ela: siniziss
+    sinin+N+Sg+All: sinizelle
+    sinin+N+Pl+All: sinizille
+    sinin+N+Sg+Ade: sinizell
+    sinin+N+Pl+Ade: sinizill
+    sinin+N+Sg+Abl: sinizelt
+    sinin+N+Pl+Abl: sinizilt
+    sinin+N+Sg+Tra: sinizessi
+    sinin+N+Pl+Tra: sinizissi
+    sinin+N+Sg+Ter: sinizeessaa
+    sinin+N+Pl+Ter: siniziissaa
+    sinin+N+Sg+Com: sinizeka
+    sinin+N+Pl+Com: sinizika

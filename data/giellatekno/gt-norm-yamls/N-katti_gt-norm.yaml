@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+# This gold standard is automatically generated from the Votic dictionary
+# at Språkbanken (https://spraakbanken.gu.se/karp/#?mode=votiska)
+
+Tests:
+  Noun - katti :   # should decline like the paradigm 'asKatti'
+    katti+N+Sg+Nom: katti
+    katti+N+Pl+Nom: katid
+    katti+N+Sg+Gen: kati
+    katti+N+Pl+Gen: kattijõ
+    katti+N+Sg+Par: kattia
+    katti+N+Pl+Par: [kattii, kattiitõ]
+    katti+N+Sg+Ill: kattise
+    katti+N+Pl+Ill: kattiise
+    katti+N+Sg+Ine: kattiz
+    katti+N+Pl+Ine: kattiiz
+    katti+N+Sg+Ela: katisse
+    katti+N+Pl+Ela: kattiisse
+    katti+N+Sg+All: katille
+    katti+N+Pl+All: kattiille
+    katti+N+Sg+Ade: katil
+    katti+N+Pl+Ade: kattiil
+    katti+N+Sg+Abl: katilte
+    katti+N+Pl+Abl: kattiilte
+    katti+N+Sg+Tra: katissi
+    katti+N+Pl+Tra: kattiissi
+    katti+N+Sg+Ter: kattissaa
+    katti+N+Pl+Ter: kattiissaa
+    katti+N+Sg+Com: katika
+    katti+N+Pl+Com: kattiika

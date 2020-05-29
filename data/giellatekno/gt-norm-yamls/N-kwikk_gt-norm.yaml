@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+# This gold standard is automatically generated from the Votic dictionary
+# at Språkbanken (https://spraakbanken.gu.se/karp/#?mode=votiska)
+
+Tests:
+  Noun - kõikk :   # should decline like the paradigm 'asKõikk'
+    kõikk+N+Sg+Nom: kõikk
+    kõikk+N+Pl+Nom: kõikõd
+    kõikk+N+Sg+Gen: kõikõ
+    kõikk+N+Pl+Gen: [kõikki, kõikkijõ]
+    kõikk+N+Sg+Par: [kõikka, kõikkaa]
+    kõikk+N+Pl+Par: [kõikkia, kõikkitõ]
+    kõikk+N+Sg+Ill: [kõikkaa, kõikkasõ]
+    kõikk+N+Pl+Ill: [kõikki, kõikkisõ]
+    kõikk+N+Sg+Ine: kõikõz
+    kõikk+N+Pl+Ine: kõikkiz
+    kõikk+N+Sg+Ela: kõikõssõ
+    kõikk+N+Pl+Ela: kõikkissõ
+    kõikk+N+Sg+All: kõikõllõ
+    kõikk+N+Pl+All: kõikkillõ
+    kõikk+N+Sg+Ade: kõikõl
+    kõikk+N+Pl+Ade: kõikkil
+    kõikk+N+Sg+Abl: kõikõltõ
+    kõikk+N+Pl+Abl: kõikkiltõ
+    kõikk+N+Sg+Tra: kõikõssi
+    kõikk+N+Pl+Tra: kõikkissi
+    kõikk+N+Sg+Ter: kõikkassaa
+    kõikk+N+Pl+Ter: kõikkissaa
+    kõikk+N+Sg+Com: kõikaka
+    kõikk+N+Pl+Com: kõikkika

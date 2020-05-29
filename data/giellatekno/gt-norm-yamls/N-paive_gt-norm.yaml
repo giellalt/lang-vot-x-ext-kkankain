@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+# This gold standard is automatically generated from the Votic dictionary
+# at Språkbanken (https://spraakbanken.gu.se/karp/#?mode=votiska)
+
+Tests:
+  Noun - päive :   # should decline like the paradigm 'asPäive'
+    päive+N+Sg+Nom: päive
+    päive+N+Pl+Nom: päiväd
+    päive+N+Sg+Gen: päivä
+    päive+N+Pl+Gen: [päivi, päivije]
+    päive+N+Sg+Par: [päivä, päivää]
+    päive+N+Pl+Par: [päivi, päivii]
+    päive+N+Sg+Ill: [päivää, päiväse]
+    päive+N+Pl+Ill: [päivi, päivise]
+    päive+N+Sg+Ine: päiväz
+    päive+N+Pl+Ine: päiviz
+    päive+N+Sg+Ela: päivässä
+    päive+N+Pl+Ela: päivissä
+    päive+N+Sg+All: päivällä
+    päive+N+Pl+All: päiville
+    päive+N+Sg+Ade: päiväl
+    päive+N+Pl+Ade: päivil
+    päive+N+Sg+Abl: päivälte
+    päive+N+Pl+Abl: päivilte
+    päive+N+Sg+Tra: päivässi
+    päive+N+Pl+Tra: päivissi
+    päive+N+Sg+Ter: päivässaa
+    päive+N+Pl+Ter: päivissaa
+    päive+N+Sg+Com: päiväka
+    päive+N+Pl+Com: päivika

@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+# This gold standard is automatically generated from the Votic dictionary
+# at Språkbanken (https://spraakbanken.gu.se/karp/#?mode=votiska)
+
+Tests:
+  Noun - luikko :   # should decline like the paradigm 'asLuikko'
+    luikko+N+Sg+Nom: luikko
+    luikko+N+Pl+Nom: luikod
+    luikko+N+Sg+Gen: luiko
+    luikko+N+Pl+Gen: [luikkoi, luikkojõ]
+    luikko+N+Sg+Par: luikkoa
+    luikko+N+Pl+Par: luikkoitõ
+    luikko+N+Sg+Ill: luikkosõ
+    luikko+N+Pl+Ill: luikkoisõ
+    luikko+N+Sg+Ine: luikoz
+    luikko+N+Pl+Ine: luikkoiz
+    luikko+N+Sg+Ela: luikossõ
+    luikko+N+Pl+Ela: luikkoissõ
+    luikko+N+Sg+All: luikollõ
+    luikko+N+Pl+All: luikkoillõ
+    luikko+N+Sg+Ade: luikol
+    luikko+N+Pl+Ade: luikkoil
+    luikko+N+Sg+Abl: luikoltõ
+    luikko+N+Pl+Abl: luikkoiltõ
+    luikko+N+Sg+Tra: luikossi
+    luikko+N+Pl+Tra: luikkoissi
+    luikko+N+Sg+Ter: luikkassaa
+    luikko+N+Pl+Ter: luikkoissaa
+    luikko+N+Sg+Com: luikoka
+    luikko+N+Pl+Com: luikkoika

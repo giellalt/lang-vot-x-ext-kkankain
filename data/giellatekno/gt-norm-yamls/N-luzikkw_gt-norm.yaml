@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+# This gold standard is automatically generated from the Votic dictionary
+# at Språkbanken (https://spraakbanken.gu.se/karp/#?mode=votiska)
+
+Tests:
+  Noun - luzikkõ :   # should decline like the paradigm 'asLuzikkõ'
+    luzikkõ+N+Sg+Nom: luzikkõ
+    luzikkõ+N+Pl+Nom: luzikõd
+    luzikkõ+N+Sg+Gen: luzika
+    luzikkõ+N+Pl+Gen: [luzikkoi, luzikkojõ]
+    luzikkõ+N+Sg+Par: [luzikka, luzikkaa]
+    luzikkõ+N+Pl+Par: [luzikkoi, luzikkoitõ]
+    luzikkõ+N+Sg+Ill: [luzikka, luzikkasõ]
+    luzikkõ+N+Pl+Ill: luzikkoisõ
+    luzikkõ+N+Sg+Ine: luzikõz
+    luzikkõ+N+Pl+Ine: luzikkoiz
+    luzikkõ+N+Sg+Ela: luzikõssõ
+    luzikkõ+N+Pl+Ela: luzikkoissõ
+    luzikkõ+N+Sg+All: luzikgõllõ
+    luzikkõ+N+Pl+All: luzikkoillõ
+    luzikkõ+N+Sg+Ade: luzikõl
+    luzikkõ+N+Pl+Ade: luzikkoil
+    luzikkõ+N+Sg+Abl: luzikõltõ
+    luzikkõ+N+Pl+Abl: luzikkoiltõ
+    luzikkõ+N+Sg+Tra: luzikõssi
+    luzikkõ+N+Pl+Tra: luzikkoissi
+    luzikkõ+N+Sg+Ter: luzikkassaa
+    luzikkõ+N+Pl+Ter: luzikkoissaa
+    luzikkõ+N+Sg+Com: luzikaka
+    luzikkõ+N+Pl+Com: luzikkoika

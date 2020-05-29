@@ -1,0 +1,646 @@
+* <2018-06-22 R>
+
+** lugesin kokku Sõnakopittõja "tüübid", nõnda
+
+nende põhjal võiks hakata siis edaspidi tüüpsõnu sisestama ... 
+
+let $db := doc("/home/kristian/Projektid/Vadja/veebikopittõja/dictionary.xml")
+let $entries := $db/*:html/*:body/*:table/*:tr/*:td[1]/*:p/data()[contains(.,"/")]
+let $suffixes := for $entry in $entries
+                 return tokenize($entry, "/")[2]
+
+return
+for $suffix in $suffixes
+group by $type := $suffix
+order by -count($suffix)
+return <teema-vormid n="{count($suffix)}">{$suffix[1]}</teema-vormid>
+
+<teema-vormid n="59">õ, -a, -a, -oi</teema-vormid>
+<teema-vormid n="26">e, -ä, -ä, -i</teema-vormid>
+<teema-vormid n="21">n, -zõ, -ssõ, -si</teema-vormid>
+<teema-vormid n="19">kõ, -a, -ka, -koi</teema-vormid>
+<teema-vormid n="17">õ, -a, -a, -i</teema-vormid>
+<teema-vormid n="10">a, -a, -a, -oi</teema-vormid>
+<teema-vormid n="10">ko, -o, -koa, -koi</teema-vormid>
+<teema-vormid n="9">kõ, -a, -ka, -ki</teema-vormid>
+<teema-vormid n="6">z, -sõ, -ssõ, -si</teema-vormid>
+<teema-vormid n="6">n, -ze, -sse, -si</teema-vormid>
+<teema-vormid n="6">taa, -õn, -in, -õta</teema-vormid>
+<teema-vormid n="6">ti, -i, -tia, -ti</teema-vormid>
+<teema-vormid n="5">õz, -ka, -assõ,</teema-vormid>
+<teema-vormid n="5">i, -õ, -tõ, -i</teema-vormid>
+<teema-vormid n="4">kõ, -ga, -ka, -koi</teema-vormid>
+<teema-vormid n="4">a, -a, -na, -oi</teema-vormid>
+<teema-vormid n="4">ssa, -zõb, -zi, -ssa</teema-vormid>
+<teema-vormid n="4">tõ, -a, -ta, -toi</teema-vormid>
+<teema-vormid n="4">ki, -i, -kia, -ki</teema-vormid>
+<teema-vormid n="4">tu, -u, -tua, -tui</teema-vormid>
+<teema-vormid n="4">i, -e, -te, -i</teema-vormid>
+<teema-vormid n="4">sä, -zä, -ssä, -si</teema-vormid>
+<teema-vormid n="4">z, -se, -sse, -si</teema-vormid>
+<teema-vormid n="4">aa, -õn, -in, -õta</teema-vormid>
+<teema-vormid n="4">ssä, -n, -zin, -ssä</teema-vormid>
+<teema-vormid n="4">õz, -ka, -assõ, -kai</teema-vormid>
+<teema-vormid n="4">a, -a, -a, -i</teema-vormid>
+<teema-vormid n="3">õta, -an, -õzin, -õta</teema-vormid>
+<teema-vormid n="3">pi, -i, -pia, -pi</teema-vormid>
+<teema-vormid n="3">te, -e, -teä, -ti</teema-vormid>
+<teema-vormid n="3">ku, -u, -kua, -kui</teema-vormid>
+<teema-vormid n="3">ssa, -n, -zin, -ssa</teema-vormid>
+<teema-vormid n="3">skõ, -zga, -ska, -skoi</teema-vormid>
+<teema-vormid n="3">n, -zõ, -ssõ, -zi</teema-vormid>
+<teema-vormid n="3">a, -a, -ha, -oi</teema-vormid>
+<teema-vormid n="3">tsõ, -sa, -tsa, -tsoi</teema-vormid>
+<teema-vormid n="3">tu, -nu, -tua, -tui</teema-vormid>
+<teema-vormid n="3">õz, -a, -assõ, -ai</teema-vormid>
+<teema-vormid n="3">i, -õ, -ia, -i</teema-vormid>
+<teema-vormid n="2">taa, -an, -in, -ti, -õta</teema-vormid>
+<teema-vormid n="2">e, -ä, -ä, -öi</teema-vormid>
+<teema-vormid n="2">a, -a, -ata, -i</teema-vormid>
+<teema-vormid n="2">ää, -än, -in, -etä</teema-vormid>
+<teema-vormid n="2">ä, -ä, -nä, -i</teema-vormid>
+<teema-vormid n="2">ata, -lan, -azin, -ata</teema-vormid>
+<teema-vormid n="2">to, -o, -ttoa, -toi</teema-vormid>
+<teema-vormid n="2">i, -e, -iä, -i</teema-vormid>
+<teema-vormid n="2">tšä, -ä, -ttšä, -tši</teema-vormid>
+<teema-vormid n="2">õz, -ka, -assõ, -kai-</teema-vormid>
+<teema-vormid n="2">ki, -gõ, -kkia, -ki</teema-vormid>
+<teema-vormid n="2">ssä, -zeb, -zi, -ssä, -sti</teema-vormid>
+<teema-vormid n="2">a, -a, -la, -oi</teema-vormid>
+<teema-vormid n="2">ka, -a, -ka, -koi</teema-vormid>
+<teema-vormid n="2">sõ, -a, -sa, -soi</teema-vormid>
+<teema-vormid n="2">õa, -õn, -in, -õta</teema-vormid>
+<teema-vormid n="2">to, -o, -toa, -toi</teema-vormid>
+<teema-vormid n="2">pa, -va, -ppa, -poi</teema-vormid>
+<teema-vormid n="2">n, -ze, -ssõ, -si</teema-vormid>
+<teema-vormid n="2">tsi, -i, -tsiä, -tsi</teema-vormid>
+<teema-vormid n="2">taa, -õn, -in, -ti, -õta</teema-vormid>
+<teema-vormid n="2">tko, -dgo, -tkoa, -tkoi</teema-vormid>
+<teema-vormid n="2">tõ, -ra, -ta, -toi</teema-vormid>
+<teema-vormid n="2">sku, -zgu, -skua, -skui</teema-vormid>
+<teema-vormid n="2">o, -o, -otõ, -i</teema-vormid>
+<teema-vormid n="2">ko, -go, -koa, -koi</teema-vormid>
+<teema-vormid n="2">õta, -kan, -kõzin, -õta</teema-vormid>
+<teema-vormid n="2">pu, -u, -pua, -pui</teema-vormid>
+<teema-vormid n="2">õ, -a, -attõ, -ai</teema-vormid>
+<teema-vormid n="2">a, -a, -na, -i</teema-vormid>
+<teema-vormid n="2">õd, -i</teema-vormid>
+<teema-vormid n="2">ä, -ä, -ä, -öi</teema-vormid>
+<teema-vormid n="2">a, -n, -zin, -ta</teema-vormid>
+<teema-vormid n="2">ä, -ä, -ä, -</teema-vormid>
+<teema-vormid n="2">ssõ, -n, -zin, -ssa</teema-vormid>
+<teema-vormid n="2">ä, -ä, -ä, -i</teema-vormid>
+<teema-vormid n="2">ssä, -zen, -zin, -ssä</teema-vormid>
+<teema-vormid n="2">a, -a, -ma, -oi</teema-vormid>
+<teema-vormid n="2">škõ, -žga, -ška,</teema-vormid>
+<teema-vormid n="2">tõ, -la, -ta, -toi</teema-vormid>
+<teema-vormid n="2">tua, -un, -tuzin, -tu,</teema-vormid>
+<teema-vormid n="2">sõ, -za, -sa, -si</teema-vormid>
+<teema-vormid n="2">ssä, -zeb, -zi, -ssä</teema-vormid>
+<teema-vormid n="2">ad, -oi</teema-vormid>
+<teema-vormid n="2">tsõ, -sa, -tsa, -tsi</teema-vormid>
+<teema-vormid n="2">tää, -en, -in, -etä</teema-vormid>
+<teema-vormid n="2">tia, -in, -tizin, -ita</teema-vormid>
+<teema-vormid n="1">põ, -va, -pa, -oi</teema-vormid>
+<teema-vormid n="1">džgad, -tškoi</teema-vormid>
+<teema-vormid n="1">as, -ta, -assõ, -tai</teema-vormid>
+<teema-vormid n="1">z, -a, -õssa, -ai</teema-vormid>
+<teema-vormid n="1">tõ, -ja, -ta, -toi</teema-vormid>
+<teema-vormid n="1">aa, -an, -õin, -õta</teema-vormid>
+<teema-vormid n="1">kaa, -gõn, -gin, -ki,</teema-vormid>
+<teema-vormid n="1">ku, -gu, -kua, -kui</teema-vormid>
+<teema-vormid n="1">nõ, -tsõ, -ssõ, -tsi</teema-vormid>
+<teema-vormid n="1">mõz, -pa, -mõssõ,</teema-vormid>
+<teema-vormid n="1">pua, -mun, -puzin,</teema-vormid>
+<teema-vormid n="1">z, -, -ssõ, -i</teema-vormid>
+<teema-vormid n="1">taa, -nõn, -nin, -ti, -õta</teema-vormid>
+<teema-vormid n="1">õ, -õ, -nõa, -õi</teema-vormid>
+<teema-vormid n="1">pi, -vi, -ppia, -pi</teema-vormid>
+<teema-vormid n="1">õta, -an, -azin, -õta</teema-vormid>
+<teema-vormid n="1">ki, -gi, -kia, -ki</teema-vormid>
+<teema-vormid n="1">utõ, -vva, -uta, -utoi</teema-vormid>
+<teema-vormid n="1">ssa, -n, -zin, -u,</teema-vormid>
+<teema-vormid n="1">tkõ, -dga, -tka, -tki</teema-vormid>
+<teema-vormid n="1">ša, -a, -ša, -šoi</teema-vormid>
+<teema-vormid n="1">ssä, -zeb, -ssä, -sti</teema-vormid>
+<teema-vormid n="1">o, -o, -loa, -oi</teema-vormid>
+<teema-vormid n="1">ä, -ä, -mä, -i</teema-vormid>
+<teema-vormid n="1">tsiä, -sin, -tsizin, -sitä</teema-vormid>
+<teema-vormid n="1">a, -a, -ba, -oi</teema-vormid>
+<teema-vormid n="1">zia, -in, -izin, -tä</teema-vormid>
+<teema-vormid n="1">õta, -an, -õzin,</teema-vormid>
+<teema-vormid n="1">o, -o, -poa, -oi</teema-vormid>
+<teema-vormid n="1">tsua, -sun, -, -suzin, -tsu, -suta</teema-vormid>
+<teema-vormid n="1">tää, -en, -in, -etti</teema-vormid>
+<teema-vormid n="1">gõta, -kan, -kõzin,</teema-vormid>
+<teema-vormid n="1">i</teema-vormid>
+<teema-vormid n="1">õta, -ab, -õzi, -õta</teema-vormid>
+<teema-vormid n="1">a, -, -izin, -ta</teema-vormid>
+<teema-vormid n="1">ä, -n, -zin, -ü, -tä</teema-vormid>
+<teema-vormid n="1">õ, -a, -a</teema-vormid>
+<teema-vormid n="1">ab, -ti</teema-vormid>
+<teema-vormid n="1">sua, -un, -suzin, -su,</teema-vormid>
+<teema-vormid n="1">õd, -si</teema-vormid>
+<teema-vormid n="1">o, -o, -voa, -oi</teema-vormid>
+<teema-vormid n="1">ossõ, -hzõn, -hzin,</teema-vormid>
+<teema-vormid n="1">pkõ, -bga, -pka, -pki</teema-vormid>
+<teema-vormid n="1">kõ, -a, -ka,</teema-vormid>
+<teema-vormid n="1">õlla, -tõn, -tõlin, -tõlla, -tõlti</teema-vormid>
+<teema-vormid n="1">ä, -ä, -rää</teema-vormid>
+<teema-vormid n="1">n, -zõ, -ssõ</teema-vormid>
+<teema-vormid n="1">ä, -ä, -ä, -,</teema-vormid>
+<teema-vormid n="1">šü, -jü, -tšüä, -šüi</teema-vormid>
+<teema-vormid n="1">tüssä, -üb, -tü, -tüssä</teema-vormid>
+<teema-vormid n="1">ü, -, -rüä, -üi</teema-vormid>
+<teema-vormid n="1">sõd, -tsoi</teema-vormid>
+<teema-vormid n="1">dgata, -tkan, -tkõzin,</teema-vormid>
+<teema-vormid n="1">i, -i, -ia, -i</teema-vormid>
+<teema-vormid n="1">z, -õ, -tõ</teema-vormid>
+<teema-vormid n="1">a, -sõmõ, -ssõma</teema-vormid>
+<teema-vormid n="1">is, -i, -ssõ, -ei</teema-vormid>
+<teema-vormid n="1">gas, -ka, -gassõ, -kai-</teema-vormid>
+<teema-vormid n="1">taa, nõn, -nin, -nti,</teema-vormid>
+<teema-vormid n="1">to, -no, -toa, -toi</teema-vormid>
+<teema-vormid n="1">u, -u, -rua, -ui</teema-vormid>
+<teema-vormid n="1">ši, -i, -šia, -ši</teema-vormid>
+<teema-vormid n="1">taa, -an, -in, -tti,</teema-vormid>
+<teema-vormid n="1">tsoa, -on, -tsozin,</teema-vormid>
+<teema-vormid n="1">z, -, -ssõ, -ei-</teema-vormid>
+<teema-vormid n="1">n, -zõ,</teema-vormid>
+<teema-vormid n="1">pu, -u, -pua, -ui</teema-vormid>
+<teema-vormid n="1">ssa, -zõb, -zi, -ssa, -sti</teema-vormid>
+<teema-vormid n="1">nõ, -a, -a, -i</teema-vormid>
+<teema-vormid n="1">lõ, -õn, -in, -la</teema-vormid>
+<teema-vormid n="1">i, -õ, -tõ, -i-</teema-vormid>
+<teema-vormid n="1">zgõta, -skan, -skõzin, -zgõta</teema-vormid>
+<teema-vormid n="1">õta, -kab, -kõzi,</teema-vormid>
+<teema-vormid n="1">ttoa, -on, -tozin, -to,</teema-vormid>
+<teema-vormid n="1">usi, -vvõ, -uttõ</teema-vormid>
+<teema-vormid n="1">taa, -õn, -tin, -tti</teema-vormid>
+<teema-vormid n="1">a, -a, -ja, -i</teema-vormid>
+<teema-vormid n="1">ko, -o, -koa, -oi</teema-vormid>
+<teema-vormid n="1">kua, -un, -kuzin, -ku,</teema-vormid>
+<teema-vormid n="1">kõ, -ka, -ka, -ki</teema-vormid>
+<teema-vormid n="1">õlla, -tõn, -tõlin,</teema-vormid>
+<teema-vormid n="1">p, -ma, -mpa, -pi</teema-vormid>
+<teema-vormid n="1">tsua, -un, -tsuzin,</teema-vormid>
+<teema-vormid n="1">la, -õn, -in, -la</teema-vormid>
+<teema-vormid n="1">assa, -an, -in, -tassa</teema-vormid>
+<teema-vormid n="1">si, -zõ, -ssõ, -si</teema-vormid>
+<teema-vormid n="1">ki, -kõ, -kõa, -ki</teema-vormid>
+<teema-vormid n="1">õz, -õttoma, -attõ</teema-vormid>
+<teema-vormid n="1">d, -õ, -ttõ</teema-vormid>
+<teema-vormid n="1">õssa, -õn, -in,</teema-vormid>
+<teema-vormid n="1">hsi, -hzõ, -ssõ, -hsi</teema-vormid>
+<teema-vormid n="1">taa, -ab, -ti, -õta</teema-vormid>
+<teema-vormid n="1">mõz, -pa, -massõ,</teema-vormid>
+<teema-vormid n="1">skõa, -zzõn, -zzin, -ski,</teema-vormid>
+<teema-vormid n="1">a, -on, -zin, -ota</teema-vormid>
+<teema-vormid n="1">uta, -vva, -uta, -utoi</teema-vormid>
+<teema-vormid n="1">pe, -vä, -pä, -pi</teema-vormid>
+<teema-vormid n="1">netä, -tän, -tesin,</teema-vormid>
+<teema-vormid n="1">žiä, -in, -izin, -itä</teema-vormid>
+<teema-vormid n="1">vvä, -en</teema-vormid>
+<teema-vormid n="1">ütää, -vven, -vvetä,</teema-vormid>
+<teema-vormid n="1">põ, -a, -pa, -poi</teema-vormid>
+<teema-vormid n="1">a, -a, -ba, -oii</teema-vormid>
+<teema-vormid n="1">kõa, -gõn, -gin, -gõta</teema-vormid>
+<teema-vormid n="1">mi, -mõ, -ntõ, -mi</teema-vormid>
+<teema-vormid n="1">vata, -pan, -pazin,</teema-vormid>
+<teema-vormid n="1">ta, -ab, -õzi, -õta</teema-vormid>
+<teema-vormid n="1">i, -e, -tõ, -i</teema-vormid>
+<teema-vormid n="1">to, -, toa, -toi</teema-vormid>
+<teema-vormid n="1">kua, -un, -kuzin, -ku, -uta</teema-vormid>
+<teema-vormid n="1">gätä, -kkään, -käzin,</teema-vormid>
+<teema-vormid n="1">tää, -en, -in, -ti,</teema-vormid>
+<teema-vormid n="1">sü, -zü, -ssüä, -süi</teema-vormid>
+<teema-vormid n="1">üd, -he, -üttä, -üi</teema-vormid>
+<teema-vormid n="1">vvä, -ün, lein, lei, lüvvä, lüüti</teema-vormid>
+<teema-vormid n="1">gas, -ka, -gassõ,</teema-vormid>
+<teema-vormid n="1">gata, -kkan, -kazin,</teema-vormid>
+<teema-vormid n="1">a, -a, -atõ, -i</teema-vormid>
+<teema-vormid n="1">ti, -i, -tia</teema-vormid>
+<teema-vormid n="1">i, -e, -te</teema-vormid>
+<teema-vormid n="1">ez, -he, -esse, -hi</teema-vormid>
+<teema-vormid n="1">nne, -en, -nin, -nnä</teema-vormid>
+<teema-vormid n="1">si, -e, -tte</teema-vormid>
+<teema-vormid n="1">tsä, -sä, -tsä, -tsi</teema-vormid>
+<teema-vormid n="1">n, -ze, -sse, -zi</teema-vormid>
+<teema-vormid n="1">sõ, -a, -sa, -si</teema-vormid>
+<teema-vormid n="1">tua, -un, -tuzin,</teema-vormid>
+<teema-vormid n="1">tua, -ub, -tu, -uta</teema-vormid>
+<teema-vormid n="1">õs, -ka, -assõ, -kai</teema-vormid>
+<teema-vormid n="1">tše, -jä, -tšää, -tši</teema-vormid>
+<teema-vormid n="1">ü, -e, -ütte, -ei</teema-vormid>
+<teema-vormid n="1">te, -e, -teä, -tei-</teema-vormid>
+<teema-vormid n="1">mi, -e, -mmiä, -mi</teema-vormid>
+<teema-vormid n="1">su, -zu, -ssua, -ui</teema-vormid>
+<teema-vormid n="1">hhä, -en, -in, -tši, -hhä, -hti</teema-vormid>
+<teema-vormid n="1">puu, -, -ta, -puitõ</teema-vormid>
+<teema-vormid n="1">õlla, -tõn, -tõlin, -õlla</teema-vormid>
+<teema-vormid n="1">saa, -an, -ssi, -sa</teema-vormid>
+<teema-vormid n="1">u, -u, -jua, -ui</teema-vormid>
+<teema-vormid n="1">pi, -i, -pia, -pi-</teema-vormid>
+<teema-vormid n="1">i, -e, -tä, -i</teema-vormid>
+<teema-vormid n="1">letä, -tšän, -tšezin,</teema-vormid>
+<teema-vormid n="1">e, -e, -ette, -ei</teema-vormid>
+<teema-vormid n="1">ez, -he, -esse,</teema-vormid>
+<teema-vormid n="1">iä, -iä, -iäte, -i</teema-vormid>
+<teema-vormid n="1">ssä, -zeb, -si, -sä</teema-vormid>
+<teema-vormid n="1">tää, -än, -in, -ti, -etä</teema-vormid>
+<teema-vormid n="1">tiä, -in, -tizin, -itä</teema-vormid>
+<teema-vormid n="1">kõ, -ka, -ka, -koi</teema-vormid>
+<teema-vormid n="1">kõ, -ga, -ka, -ki</teema-vormid>
+<teema-vormid n="1">o, -o, -joa, -oi</teema-vormid>
+<teema-vormid n="1">taa, -õn, -in,</teema-vormid>
+<teema-vormid n="1">õd, -oi</teema-vormid>
+<teema-vormid n="1">pkõ, -bga, -pka,</teema-vormid>
+<teema-vormid n="1">az, -ta, -assõ, -tai</teema-vormid>
+<teema-vormid n="1">rõ, -õn, -in, -i, -ra</teema-vormid>
+<teema-vormid n="1">to, -lo, -toa, -toi</teema-vormid>
+<teema-vormid n="1">zõs, -sa, -zassõ, -sai</teema-vormid>
+<teema-vormid n="1">ski, -zgõ, -skia, -ski</teema-vormid>
+<teema-vormid n="1">d, -, -ttä, -i</teema-vormid>
+<teema-vormid n="1">sko, -zgo, -skoa, -skoi</teema-vormid>
+<teema-vormid n="1">ä, -ä, hää, -i</teema-vormid>
+<teema-vormid n="1">ütä, -vven, -üzin,</teema-vormid>
+<teema-vormid n="1">tõ, -na, -ta, -toi</teema-vormid>
+<teema-vormid n="1">õz, -a, -assõ, -ai-</teema-vormid>
+<teema-vormid n="1">is, -ti, -issõ, -ti</teema-vormid>
+<teema-vormid n="1">ku, -u, -kua,</teema-vormid>
+<teema-vormid n="1">ppiä, -vin, -pizin, -vitä</teema-vormid>
+<teema-vormid n="1">koa, -on, -kozin, -ota</teema-vormid>
+<teema-vormid n="1">pua, -un, -puzin, -pu,</teema-vormid>
+<teema-vormid n="1">ä, -ä, -mmää, -i</teema-vormid>
+<teema-vormid n="1">o, -o, -hoa, -oi</teema-vormid>
+<teema-vormid n="1">taa, -õn, -tin, -õta</teema-vormid>
+<teema-vormid n="1">põ, -a, -pa, -pi</teema-vormid>
+<teema-vormid n="1">te, -e, -teä, -tei</teema-vormid>
+<teema-vormid n="1">z, -tše, -sse, -tši-</teema-vormid>
+<teema-vormid n="1">etä, -pän, -pezin,</teema-vormid>
+<teema-vormid n="1">õ, -a, -a, oi</teema-vormid>
+<teema-vormid n="1">ta, -a, -tta, -toi</teema-vormid>
+<teema-vormid n="1">ed, -i</teema-vormid>
+<teema-vormid n="1">vva, -an, -in, -vva, -ati</teema-vormid>
+<teema-vormid n="1">n, -ne, -ttä, -ni</teema-vormid>
+<teema-vormid n="1">id, -i-</teema-vormid>
+<teema-vormid n="1">sõ, -zõn, -zin, -sa</teema-vormid>
+<teema-vormid n="1">se, -tseme, -tsemää,</teema-vormid>
+<teema-vormid n="1">tše, -llä, -tšää, -tši</teema-vormid>
+<teema-vormid n="1">ka, -ga, -kka, -koi</teema-vormid>
+<teema-vormid n="1">iä, -iä, -iää, -i</teema-vormid>
+<teema-vormid n="1">n, -ze, -ssä, -si</teema-vormid>
+<teema-vormid n="1">nä, -nä, -nä, -i</teema-vormid>
+<teema-vormid n="1">ta, -an, -õzin, -õta</teema-vormid>
+<teema-vormid n="1">n, -zõ, -ssa, -si</teema-vormid>
+<teema-vormid n="1">ä, -ä, -mää, -i</teema-vormid>
+<teema-vormid n="1">pu, -u, -pua,</teema-vormid>
+<teema-vormid n="1">si, -õ, -ttõ, -si</teema-vormid>
+<teema-vormid n="1">ata, -vvan, -azin, -ata</teema-vormid>
+<teema-vormid n="1">i, -e, - vviä, -i</teema-vormid>
+<teema-vormid n="1">ta, -a, -tta, -ti</teema-vormid>
+<teema-vormid n="1">utaa, -vvõn, -vvin,</teema-vormid>
+<teema-vormid n="1">ski, -zge, -skiä, -ski</teema-vormid>
+<teema-vormid n="1">tüä, -nün, -tüzin, -tü, -nütä</teema-vormid>
+<teema-vormid n="1">vve, -ün, sein, -vvä,</teema-vormid>
+<teema-vormid n="1">tši, -ši, -tšiä, -tši</teema-vormid>
+<teema-vormid n="1">taa, -õn, -in, -ti,</teema-vormid>
+<teema-vormid n="1">hõ, -a, -ha, -hoi</teema-vormid>
+<teema-vormid n="1">õd, -toi</teema-vormid>
+<teema-vormid n="1">t, -a, -ta, -toi</teema-vormid>
+<teema-vormid n="1">toa, -on, -tozin, -to,</teema-vormid>
+<teema-vormid n="1">i, -e, -ia, -i</teema-vormid>
+<teema-vormid n="1">tsia, -sin, -tsizin, -tsi, -sita</teema-vormid>
+<teema-vormid n="1">ssõ, -b, -, -ssa</teema-vormid>
+<teema-vormid n="1">paa, -an, -õin, -ppõi,</teema-vormid>
+<teema-vormid n="1">a, -a, -ra, -oi</teema-vormid>
+<teema-vormid n="1">si, -i, -siä, -si</teema-vormid>
+<teema-vormid n="1">kua, -un, -kuzin, -uta</teema-vormid>
+<teema-vormid n="1">õ, -a, -ba, -oi</teema-vormid>
+<teema-vormid n="1">ko, -go, -kkoa, -koi</teema-vormid>
+<teema-vormid n="1">etä, -än, -ezin, -etä</teema-vormid>
+<teema-vormid n="1">tše, -nä, -ttšä, -tši</teema-vormid>
+<teema-vormid n="1">ssä, -in, -zin, -tä</teema-vormid>
+<teema-vormid n="1">äd, -vä, -ätte, -äi</teema-vormid>
+<teema-vormid n="1">hua, -ub, -u, -uta</teema-vormid>
+<teema-vormid n="1">taa, -õn, -tin, -tti,</teema-vormid>
+<teema-vormid n="1">tkoa, -dgon, -tkozin,</teema-vormid>
+<teema-vormid n="1">i, -e, -viä, -i</teema-vormid>
+<teema-vormid n="1">ü, -ü, -lüä, -üi</teema-vormid>
+<teema-vormid n="1">si, -e, -tte, -ssi</teema-vormid>
+<teema-vormid n="1">vve, -ün, -vvä, -in, -üti</teema-vormid>
+<teema-vormid n="1">ssüä, -zün, -süzin,</teema-vormid>
+<teema-vormid n="1">seä, -zen, -si, -zetä</teema-vormid>
+<teema-vormid n="1">ä, -ä, -lä, -i</teema-vormid>
+<teema-vormid n="1">tõ, -a, -ta</teema-vormid>
+<teema-vormid n="1">lla, -un, -lin, -lla</teema-vormid>
+<teema-vormid n="1">d, -i-</teema-vormid>
+<teema-vormid n="1">taa, -nõn, -in, -nõta</teema-vormid>
+<teema-vormid n="1">võz, -pa, -vassõ, -pai</teema-vormid>
+<teema-vormid n="1">skõ, -zga, -ska, -ski</teema-vormid>
+<teema-vormid n="1">õd, -koi</teema-vormid>
+<teema-vormid n="1">mõta, -pan, -pazin,</teema-vormid>
+<teema-vormid n="1">mä, -mä, -tä</teema-vormid>
+<teema-vormid n="1">ti, -di, -ttiä, -ti</teema-vormid>
+<teema-vormid n="1">ätä, -än, -äzin, -etä</teema-vormid>
+<teema-vormid n="1">õ, -ä, -ä, -i</teema-vormid>
+<teema-vormid n="1">kü, -ü, -küä, -küi</teema-vormid>
+<teema-vormid n="1">ke, -gä, -kä, -ki</teema-vormid>
+<teema-vormid n="1">tö, -ö, -töä, -töi</teema-vormid>
+<teema-vormid n="1">är, -täre, -arte, -täri</teema-vormid>
+<teema-vormid n="1">i, -i, -te, -i</teema-vormid>
+<teema-vormid n="1">süä, -üb, -sü, -ütä</teema-vormid>
+<teema-vormid n="1">hs, -hzõ, -ssõ, -hsi</teema-vormid>
+<teema-vormid n="1">jua, -un, -uzin, -uta</teema-vormid>
+<teema-vormid n="1">pi, -i, -pia</teema-vormid>
+<teema-vormid n="1">sua, -un, -suzin, -su, -uta</teema-vormid>
+<teema-vormid n="1">aa, -an, -in, -õta</teema-vormid>
+<teema-vormid n="1">ad, -soi</teema-vormid>
+<teema-vormid n="1">si, -vvõ, -ttõ, -si</teema-vormid>
+<teema-vormid n="1">a, -n, -zin, -tu, -ta</teema-vormid>
+<teema-vormid n="1">laa, -an, -azin, -õta</teema-vormid>
+<teema-vormid n="1">õssa, -õb, -i, -õssa</teema-vormid>
+<teema-vormid n="1">i, -i, -ria, -i</teema-vormid>
+<teema-vormid n="1">si, -rõ, -ttõ, -si</teema-vormid>
+<teema-vormid n="1">võz, -pa, -võssõ, -pai</teema-vormid>
+<teema-vormid n="1">saa, -õn, -in, -si,</teema-vormid>
+<teema-vormid n="1">ata, -san, -sõzin, -ata</teema-vormid>
+<teema-vormid n="1">tää, -en, -in, -tti,</teema-vormid>
+<teema-vormid n="1">e, -ä, ä, -i</teema-vormid>
+<teema-vormid n="1">si, -e, -tte, -si</teema-vormid>
+<teema-vormid n="1">si, -je, -ttõ</teema-vormid>
+<teema-vormid n="1">õta, -pan, -põzin,</teema-vormid>
+<teema-vormid n="1">põ, -ma, -pa, -poi</teema-vormid>
+<teema-vormid n="1">o, -o, -roa</teema-vormid>
+<teema-vormid n="1">zgõta, -skan, -skõzin,</teema-vormid>
+<teema-vormid n="1">taa, -an, -in,</teema-vormid>
+<teema-vormid n="1">kõ, -a, -ka, -oi</teema-vormid>
+<teema-vormid n="1">ssa, -n, -zin, -si, -ssa</teema-vormid>
+<teema-vormid n="1">taa, -an, -in, -tti, -õta</teema-vormid>
+<teema-vormid n="1">pö, -vö, -pöa, -pöi</teema-vormid>
+<teema-vormid n="1">tši, -e, -ttšiä</teema-vormid>
+<teema-vormid n="1">ä, -n, -zin, -ssä,</teema-vormid>
+<teema-vormid n="1">d, -, -ttõ, -i-</teema-vormid>
+<teema-vormid n="1">a, -a, ma, -i</teema-vormid>
+<teema-vormid n="1">mõlla, -põn, -põlin,</teema-vormid>
+<teema-vormid n="1">a, -a, -a, -i-</teema-vormid>
+<teema-vormid n="1">ki, -gõ, -kia, -ki</teema-vormid>
+<teema-vormid n="1">i, -õ, -ia , -i</teema-vormid>
+<teema-vormid n="1">õz, -ka, -kassõ,</teema-vormid>
+<teema-vormid n="1">põn, -põzõ, -võssõ,</teema-vormid>
+<teema-vormid n="1">taa, -õn, -in, -tti,</teema-vormid>
+<teema-vormid n="1">saa, -an, -in, -si, -õta</teema-vormid>
+<teema-vormid n="1">õ, -a, -a, -i-</teema-vormid>
+<teema-vormid n="1">tše, -jä, -ttšä, -tši</teema-vormid>
+<teema-vormid n="1">d, -, -tte, -i-</teema-vormid>
+<teema-vormid n="1">süä, -zün, -süzin, -zütä</teema-vormid>
+<teema-vormid n="1">ä, -seme, -semää</teema-vormid>
+<teema-vormid n="1">z, -e, -te</teema-vormid>
+<teema-vormid n="1">ätä, -pän, -pezin, -ätä</teema-vormid>
+<teema-vormid n="1">ä, -, -vä, -i</teema-vormid>
+<teema-vormid n="1">pu, -vu, -ppua</teema-vormid>
+
+** otsi kõik märksõnad
+let $db := doc("/home/kristian/Projektid/Vadja/veebikopittõja/dictionary.xml")
+let $entries := $db/*:html/*:body/*:table/*:tr/*:td[1]/*:p/data()[contains(.,"/")]
+let $words := for $entry in $entries[contains(.,"kõ, -a, -ka, -koi")]
+                 return tokenize($entry, ",")[1]
+return $words ! replace(.,"/", "")
+
+* <2018-06-29 R>
+
+** tegin sõnavormide sorteerija
+Kataloogi 'abikoodi' all on nüüd sufiksisorteerija.py mis töötab kolme erineva
+sorteerimisalgoritmiga. Millest mulle tundus emuleeritud silbituuma järgi
+sorteerimine kõige otstarbelikkum olevat oma töö tabelite jaoks. Oleks muidugi
+olnud tore õppida hoopis latex-is otse tabeliridu sorteerima, aga jäägu see
+hiljemaks.
+
+
+** parandasin vigu sõnakopittõja veebiversioonis
+üle saja tabelirea sisaldas mitut p-elementi
+
+* <2018-07-02 E>
+
+** Vestlus Jack Rueteriga
+tutvustasin veidi (ilmselt liiga vähe, siiski) ekstraktmorfoloogiat ja tegime plaani, et alustuseks koostan Giellateknosse vadja yaml-testid.
+
+** Edasine kommunikatsioon Spraakbankeniga
+Küsisin Maria Öhrbergilt kuidas edasi kommunikeeruda, kuna Malin nende juures enam ei tööta.
+
+** Vadja Karp
+Vadja json-id on allalaetavad https://ws.spraakbanken.gu.se/ws/karp/v5/export/votiskaparadigms ja https://ws.spraakbanken.gu.se/ws/karp/v5/export/votiska
+
+** XQuery json2lmf
+peaks küll panustama hoopis Karp infrasse .. aga .. üsna kiires tempos saab valmis
+
+** Tähtsaid küsimusi
++paradigmade json-is ei ole mainitud nende partOfSpeech
+
+* <2018-07-04 K>
+** Giellatekno testide 1 variant
+sain seega valmis mitu asja:
++ Karp json -> LMF
++ LMF -> giellatekno yaml
+
+* <2018-07-06 R>
+** Giellatekno testide 2 variant
+nüüd salvestatakse paradigmade kaupa eraldi yaml-failid.
+laadisin üles Giellatekno serverisse SVNiga, et Jack Rueter saaks üle vaadata.
+* <2018-07-07 L>
+
+** kuidas lahendada pextract2fst
+
+GFis kasutan vahelüliks funktsiooni _mkParadigm(lemma)_, mis tükeldab lemma ja edastab muutujatena _mkParadigmConcrete(muutuja1, ..., muutujaN)_, mis omakorda koostab kõik vormid.
+
+Probleemi võib lühiajaliselt lahendada sel moel, et ekstraktmorfo andmebaasist genereeritakse kõik vajali kood fst leksikoniks, aga sel moel ei saa fst leksikoni eraldi täiendada ning selle kood on raskesti arusaadav. Ehk magistri jaoks olekski sobilik variant....
+
+*** pseudokoodi visualiseerimaks probleemi:
+
+LEXICON ROOT
+rätti NOUN_PARADIGM_TÜTTÖ;
+
+LEXICON NOUN_PARADIGM_TÜTTÖ
++Sg+Nom:0
++Sg+Gen:räti
++Sg+Par:rättiä
+
+*** lahendus
+lahenduseks on lasta genereerida konstantide jaoks FST muutujad :-)
+LEXICON ROOT
+rätti:C1rätC2iC3
+
+mis paradigma genereerimisel asendada
+LEXICON NOUN_PARADIGM_TÜTTÖ
++Sg+Nom:C1->0, C2->t, C3->0;  ! tüttö
++Sg+Gen:C1->0, C2->0, C3->0;  ! tütö
++Sg+Par:C1->0, C2->t, C3->ä;  ! tüttöä
+
+* <2018-07-11 K>
++ alustasin fst konverteerimisega
++ ja selleks ka täiendasin karp-json2lmf konverteerimist
+
+* <2018-07-17 T>
++ töötasin edasi fst konverteerimisega
++ töötasin välja (uuesti) kuidas fst pextractiga vastavusse seada, ja sain eelmist mõttekäiku veidike lihtsustada: ekstraktmalli (ehk muutujate ja konstantide) _inverteerimine_.
+
+* <2018-07-18 K>
++ HEA KÜSIMUS: kas /tüttärikko/ tõesti käitub nagu /luikko/?
++ sain taaskord choose-by-grammatical-features funktsionaalsuse käima, miskipärast oli see kood kaduma läinud (või unenägu?)
+
+* <2018-07-19 N>
+Sain lõpuks fst leksikoni poole tööle, ses mõttes, et ümberkirjutamine lmf-i TransformSet/Process-idest fst representatsiooni nüüd töötab.
+Näiteks 'tüttö' f('tüt', 'ö') ==> C1tütC2öC3 ja 'poikõ' f('poi') ==> C1poiC2
+Nüüd peab aga paradigmade pool korda saama fst-s
+
+NB! leidsin head tsiteerimist oma magistritöösse: https://web.stanford.edu/~laurik/fsmbook/clarifications/xmldowntrans.html
+mis räägib et lexc on umbtee ja et tuleks kasutada nt xml-i
+
+* <2018-07-22 P>
+Täna sain lõpuks aega tööd teha ja sain ka FST proovikoodi tööle. Nüüd tuleb kood lihtsalt genereerida.
+Küsimusteks on 
++ FST üldine strateegia, ehk kasutan mallipäraselt Karttuse stumpilikku lähenemist
++ eelmises siiski jääda Giellateknole truuks
++ paralleelvariantide genereerimine (kas esimesest järgmised märgendada mittesoovituteks, või peaks see info tulema samuti LMFist?)
+
+* <2018-07-28 L>
+Küsimusi: kuidas paradigmasid nimetada? Lihtsalt lemgrami järgi või peaks lisama paradigmanumber?
+
+Jack Rueteriga XMList 
+
+xml (Sanat-wiki jaoks)
+sisaldab põhimõtteliselt lemma ja lexc cont-class (ja soome interlingva)
+
+ühe <mg>-elemendi sees ainult üks <tg> sama keelega (tähendab, mitte sünonüüme ühe keele sees)
+
+<l> elemendi pos-atribuut peab olema
+
+<e>
+  <map sml_ids="9121"/>
+  <lg>
+    <l pos="N">greikk-ǩiõll</l>
+    <stg>
+      <st Contlex="N_MUORR">greikk-ǩiõ%{ʹØ%}ll</st>
+      <mini_paradigm exclude="NDS"> <!-- NetiDigiSanakirja  -->
+        <analysis ms="A_Pl_Nom">
+          <wordform>-ǩiõl</wordform>
+        </analysis>
+        <analysis ms="A_Sg_Ill">
+          <wordform>-kiõʹlle</wordform>
+        </analysis>
+      </mini_paradigm>
+    </stg>
+  </lg>
+  <sources>
+    <book name="sjm" type="db"/>
+  </sources>
+  <mg relId="0"> <!-- relative ID (LMF ~ related form) -->
+    <semantics>
+    </semantics>
+    <tg xml:lang="fin">
+      <t pos="A">kreikka</t>
+    </tg>
+  </mg>
+</e>
+
+Sõnapiirid peaksid olema märgendatud
+aakkos#runo
+
+KÜSIMUS: kuidas integreerida fst-kalkülus GT-sse? (lexc asemel)
+Trondi ja Sjuriga rääkida kuidas XFST kood integreerida
+Sjur Moshagen, sjnomos (kes on teinud GT infrat paljuski)
+IRC chat.freenode.net #hfst (sjnomos)
+või Jaak Pruulman Vengerfeldt, jjpp
+
+Sain Giellatekno tšätti kutse Zulipis (nagu Slack)
+
+C1,C2 jne hoopis ^C1 sest kuskilt ilmselt olemas nt mõni maantee nimega C2 :-)
+
+Klaviatuurifailid
+https://victorio.uit.no/langtech/trunk/keyboards/vro/vro-mobile.yaml
+
+Klaviatuuri jaoks lisada twolc aabitsasse kõik tähed
+https://victorio.uit.no/langtech/trunk/langs/vot/src/phonology/vot-phon.twolc
+
+** TODO:
++ väänata oma LMF Sanat XMLisse
++ lisada soome ja vene tõlked oma LMFi, et need saaks Sanat XMLisse
++ lisada kõik vadja pehmendused TWOLC failisse
++ klaviatuuri "miten generoidaan uutta näppäistöä" Giellatekno leheküljel
++ rääkida Sjuriga klaviatuurist
++ rääkida Sjuriga vadja Makefile'ist, et saaks xfst/hfst tööle ilma lexc-ta
+
+* <2018-07-29 P>
+** tegin Sanat XMLi valmis (ent ilma tõlkevasteteta)
+seal ei peaks rohkem tööd olema peale tõlkevastete lisamine, mis aga peab käima Sprakbankeni Karp'i kaudu.
+
+** tegin valmis paradigmade jätkuleksikoni nouns.lexc
+põhimõte on lihtne: Sanat XMLis on märksõna, tehniline lemma ja jätkuklassi nimi. Seega paradigmade jätkuklassis on vaja ainult lisada kõik Grammatical Features. Nende tägide põhjal saab NounParadigms.fst ümberkirjutada kõik õiged nö "fonoloogilised realisatsioonid".
+
+** pseudokoodi NounParadigms.fst jaoks
+eelmistest on palju kasutatavat koodi kokku saadud, enam-vähem saaks vist nõnda
+
+let $ := $global
+for $paradigm in $paradigms
+  let $name := $pos || "Paradigm" || $id
+  let $rewrite_rules :=
+    for $form in $paradigm/transformationSet
+      group by $msd
+      for $constant in $prependedAndAppendedProcesses (: a sequence ("^C1", "^C2", "^C3") :)
+      return
+      "[" string-join($form, ", ") || "]"
+  let $definition := "define " || $name || " [ " || string-join($rewrite-rules, " .o. ") || " ] ;"
+* <2018-08-12 P>
+** Inari sai GF-phrasebook korda
+eile sai Inari mu vadja vestmiku korda
+** sõidan vadjamaale
+internet lõppeb Narvas, seega on veidi jama Morfoloogialaboriga ilma võrguta töötata
+** lisan freneetiliselt asju
+lisasin paradigm /omõn/ jaoks
+püüan saada karp-json2lmf ja lmf2gf tööle
+** kõik failid on igal pool laiali appii
+kuna nüüd pöördusin tagasi pextract2gf-votic, siis on paras segadus majas
+pean uuendama sealse lmf-i lugemise teeki jne
+** NB! tähtis ümberstruktureerimine
+nüüdsest kasutan LMFi lugemiseks:
+import module namespace lmf = "http://keeleleek.ee/lmf" at "/home/kristian/Projektid/marfors/pextract-xml/lib/lmf.xqm";
+
+* <2018-10-12 R>
+** Taaskord naasen
+Taaskord püüan naaseda oma magistritöö juurde. Sel nädalal alustasin SIGURi IWCLULi abstraktit kirjutama.
+Sellel on see hea omadus, et pean nüüd üle vaatama mis mul on tehtud ja mis osad mul on veel lahendamata (nagu nt paralleelvormide genereerimine ma tean on mul puudu). Aga Tartu--Lelle bussis pole ma poole tunniga jõudnud leida kõik failidki üles. See on uskumatu, kuidas kõik asjad lähevad eri kataloogidesse. Tagantjärgi täiesti arusaamatu. Aga võttan ette koostada tööplaani järgmiseks nädalaks.
+
+** Tööplaan järgmiseks nädalaks
+*** Kõik jupid üles leida
+Kas panna kõik kokku ühte reposse Gitisse, või panna nt siia päevikusse kirja, kus kõik jupid asuvad.
+
+*** Dokumentatsiooni kirjutada
+Seoses kõikide juppide ülesotsimisega on ka hea võimalus kirjutada dokumentatsiooni.
+
+*** Paralleelvormide GF koodi õige genereerimine 
+Tee see ära, sellega saad mitmesse kohta dokumentatsiooni kirjutada. Ja panna see kirja IWCLULi abstrakti.
+
+*** Viia IWCLUL abstrakt ja tehtud jupid vastavusse
+Eeskätt LMFi struktuur võiks saada kirja, see on kõige stabiilseim.
+Aga ka GF on stabiilne.
+
+Kui need kaks on kirjutatud, siis on lihtne Giellatekno FST juures järgida üldist struktuuri ja nentida kus on valmis ja kus on veel tööd vajaka teha.
+
+
+* <2018-10-15 E>
+** sain vadja korpused pandud Zenodosse
+Ja sain sellega endale oma täitsa esimese DOI. Seoses kursuse 'Avatud ja koostööpõhine humanitaaria' kodulugemisega, et puudub struktuur saada või koguda endale nn "punkte" oma nö "vabatahtliku" töö eest, siis ma olen nüüd küll praegu väga uhke oma esimese DOIga varustatud andmekogu eest.
+
+** alustasin koondamist uude MA-thesis reposse
+Valmis sain alamkataloogi 'data'-ga, mis koondab endasse praegu:
++ data/karp-json
+  download.sh mis tõmbab andmed Morfoloogialaborist
+  vadja json andmestikud votiska.json ja votiskaparadigms.json
++ data/lmf.xml
+  andmestik konverteeritud LMFi kujule
++ data/karp-json.xqm
+  teek abifunktsioonidega jsoni konverteerimiseks LMFi kujule
++ data/karp-json2lmf.xq
+  kirjutab uue 'lmf.xml' andmestiku kõvakettale
+
+Panin ka sellesama päeviku 'misc' kataloogisse

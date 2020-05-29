@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+# This gold standard is automatically generated from the Votic dictionary
+# at Språkbanken (https://spraakbanken.gu.se/karp/#?mode=votiska)
+
+Tests:
+  Noun - partõ :   # should decline like the paradigm 'asPartõ'
+    partõ+N+Sg+Nom: partõ
+    partõ+N+Pl+Nom: parrõd
+    partõ+N+Sg+Gen: parra
+    partõ+N+Pl+Gen: [partoi, partojõ]
+    partõ+N+Sg+Par: [parta, partaa]
+    partõ+N+Pl+Par: [partoi, partoitõ]
+    partõ+N+Sg+Ill: [partasõ, parta]
+    partõ+N+Pl+Ill: partoisõ
+    partõ+N+Sg+Ine: parrõz
+    partõ+N+Pl+Ine: partoiz
+    partõ+N+Sg+Ela: parrõssõ
+    partõ+N+Pl+Ela: partoissõ
+    partõ+N+Sg+All: parrõllõ
+    partõ+N+Pl+All: partoillõ
+    partõ+N+Sg+Ade: parrõl
+    partõ+N+Pl+Ade: partoil
+    partõ+N+Sg+Abl: parrõltõ
+    partõ+N+Pl+Abl: partoiltõ
+    partõ+N+Sg+Tra: parrõssi
+    partõ+N+Pl+Tra: partoissi
+    partõ+N+Sg+Ter: partassaa
+    partõ+N+Pl+Ter: partoissaa
+    partõ+N+Sg+Com: parraka
+    partõ+N+Pl+Com: partoika

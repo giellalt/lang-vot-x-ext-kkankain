@@ -1,0 +1,3 @@
+# Data
+
+This is the data folder, a part of the MA-thesis. Votic lexical data held in Lexical Markup Framework form is licensed under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). The original Votic data from [Språkbanken](https://spraakbanken.gu.se/)'s [Karp/Morfologilabbet](https://spraakbanken.gu.se/morfologilabbet/?lexicon=votiska&lang=eng) is licensed under CC-BY, which is [one-way compatible to be relicensed](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility) under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) in the work done here.

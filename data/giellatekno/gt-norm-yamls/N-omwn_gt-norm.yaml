@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+# This gold standard is automatically generated from the Votic dictionary
+# at Språkbanken (https://spraakbanken.gu.se/karp/#?mode=votiska)
+
+Tests:
+  Noun - omõn :   # should decline like the paradigm 'asOmõn'
+    omõn+N+Sg+Nom: omõn
+    omõn+N+Pl+Nom: omõnad
+    omõn+N+Sg+Gen: omõna
+    omõn+N+Pl+Gen: [omõnoi, omõnojõ]
+    omõn+N+Sg+Par: [omõna, omõnaa]
+    omõn+N+Pl+Par: [omõnoi, omõnoitõ]
+    omõn+N+Sg+Ill: [omõnaa, omõnasõ]
+    omõn+N+Pl+Ill: omõnoisõ
+    omõn+N+Sg+Ine: omõnõz
+    omõn+N+Pl+Ine: omõnoiz
+    omõn+N+Sg+Ela: omõnõssõ
+    omõn+N+Pl+Ela: omõnoissõ
+    omõn+N+Sg+All: omõnõllõ
+    omõn+N+Pl+All: omõnoillõ
+    omõn+N+Sg+Ade: omõnõl
+    omõn+N+Pl+Ade: omõnoil
+    omõn+N+Sg+Abl: omõnõltõ
+    omõn+N+Pl+Abl: omõnoiltõ
+    omõn+N+Sg+Tra: omõnõssi
+    omõn+N+Pl+Tra: omõnoissi
+    omõn+N+Sg+Ter: omõnassaa
+    omõn+N+Pl+Ter: omõnoissaa
+    omõn+N+Sg+Com: omõnaka
+    omõn+N+Pl+Com: omõnoika

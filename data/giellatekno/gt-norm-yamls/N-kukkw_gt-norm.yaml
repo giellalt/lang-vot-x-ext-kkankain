@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+# This gold standard is automatically generated from the Votic dictionary
+# at Språkbanken (https://spraakbanken.gu.se/karp/#?mode=votiska)
+
+Tests:
+  Noun - kukkõ :   # should decline like the paradigm 'asKukkõ'
+    kukkõ+N+Sg+Nom: kukkõ
+    kukkõ+N+Pl+Nom: kukõd
+    kukkõ+N+Sg+Gen: kuka
+    kukkõ+N+Pl+Gen: [kukki, kukkije]
+    kukkõ+N+Sg+Par: [kukka, kukkaa]
+    kukkõ+N+Pl+Par: [kukki, kukkitõ]
+    kukkõ+N+Sg+Ill: [kukkaa, kukkasõ]
+    kukkõ+N+Pl+Ill: [kukki, kukkisõ]
+    kukkõ+N+Sg+Ine: kukõz
+    kukkõ+N+Pl+Ine: kukkiz
+    kukkõ+N+Sg+Ela: kukõssõ
+    kukkõ+N+Pl+Ela: kukkissõ
+    kukkõ+N+Sg+All: kukõllõ
+    kukkõ+N+Pl+All: kukkillõ
+    kukkõ+N+Sg+Ade: kukõl
+    kukkõ+N+Pl+Ade: kukkil
+    kukkõ+N+Sg+Abl: kukõltõ
+    kukkõ+N+Pl+Abl: kukkiltõ
+    kukkõ+N+Sg+Tra: kukõssi
+    kukkõ+N+Pl+Tra: kukkissi
+    kukkõ+N+Sg+Ter: kukkassaa
+    kukkõ+N+Pl+Ter: kukkissaa
+    kukkõ+N+Sg+Com: kukaka
+    kukkõ+N+Pl+Com: kukkika

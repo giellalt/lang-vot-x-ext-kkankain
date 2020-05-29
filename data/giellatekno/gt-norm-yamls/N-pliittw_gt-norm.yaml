@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+# This gold standard is automatically generated from the Votic dictionary
+# at Språkbanken (https://spraakbanken.gu.se/karp/#?mode=votiska)
+
+Tests:
+  Noun - pliittõ :   # should decline like the paradigm 'asPliittõ'
+    pliittõ+N+Sg+Nom: pliittõ
+    pliittõ+N+Pl+Nom: pliitõd
+    pliittõ+N+Sg+Gen: pliita
+    pliittõ+N+Pl+Gen: [pliittoi, pliittojõ]
+    pliittõ+N+Sg+Par: [pliitta, pliittaa]
+    pliittõ+N+Pl+Par: [pliittoi, pliittoitõ]
+    pliittõ+N+Sg+Ill: [pliittasõ, pliitta]
+    pliittõ+N+Pl+Ill: pliittoisõ
+    pliittõ+N+Sg+Ine: pliittõz
+    pliittõ+N+Pl+Ine: pliittoiz
+    pliittõ+N+Sg+Ela: pliitõssõ
+    pliittõ+N+Pl+Ela: pliittoissõ
+    pliittõ+N+Sg+All: pliitõllõ
+    pliittõ+N+Pl+All: pliittoillõ
+    pliittõ+N+Sg+Ade: pliitõl
+    pliittõ+N+Pl+Ade: pliittoil
+    pliittõ+N+Sg+Abl: pliitõltõ
+    pliittõ+N+Pl+Abl: pliittoiltõ
+    pliittõ+N+Sg+Tra: pliitõssi
+    pliittõ+N+Pl+Tra: pliittoissi
+    pliittõ+N+Sg+Ter: pliittassaa
+    pliittõ+N+Pl+Ter: pliittoissaa
+    pliittõ+N+Sg+Com: pliitaka
+    pliittõ+N+Pl+Com: pliittoika

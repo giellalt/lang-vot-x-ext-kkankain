@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+# This gold standard is automatically generated from the Votic dictionary
+# at Språkbanken (https://spraakbanken.gu.se/karp/#?mode=votiska)
+
+Tests:
+  Noun - koirõ :   # should decline like the paradigm 'asKoirõ'
+    koirõ+N+Sg+Nom: koirõ
+    koirõ+N+Pl+Nom: koirõd
+    koirõ+N+Sg+Gen: koira
+    koirõ+N+Pl+Gen: [koiri, koirije]
+    koirõ+N+Sg+Par: [koira, koiraa]
+    koirõ+N+Pl+Par: [koiri, koiritõ]
+    koirõ+N+Sg+Ill: [koiraa, koirasõ]
+    koirõ+N+Pl+Ill: [koiri, koirisõ]
+    koirõ+N+Sg+Ine: koirõz
+    koirõ+N+Pl+Ine: koiriz
+    koirõ+N+Sg+Ela: koirõssõ
+    koirõ+N+Pl+Ela: koirissõ
+    koirõ+N+Sg+All: koirõllõ
+    koirõ+N+Pl+All: koirillõ
+    koirõ+N+Sg+Ade: koirõl
+    koirõ+N+Pl+Ade: koiril
+    koirõ+N+Sg+Abl: koirõltõ
+    koirõ+N+Pl+Abl: koiriltõ
+    koirõ+N+Sg+Tra: koirõssi
+    koirõ+N+Pl+Tra: koirissi
+    koirõ+N+Sg+Ter: koirassaa
+    koirõ+N+Pl+Ter: koirissaa
+    koirõ+N+Sg+Com: koiraka
+    koirõ+N+Pl+Com: koirika
