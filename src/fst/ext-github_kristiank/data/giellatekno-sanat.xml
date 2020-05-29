@@ -1,0 +1,1658 @@
+<r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../giella-core/schemas/fiu-dict-schema.xsd" xml:lang="vot">
+  <e>
+    <lg>
+      <l pos="N">noorikkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">noorikkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">rokkõ</l>
+      <stg>
+        <st Contlex="N_p_kukkõ">rokkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">pliittõ</l>
+      <stg>
+        <st Contlex="N_p_pliittõ">pliittõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">lehme</l>
+      <stg>
+        <st Contlex="N_p_päive">lehme</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">piime</l>
+      <stg>
+        <st Contlex="N_p_päive">piime</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">fartukkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">fartukkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">sukkõ</l>
+      <stg>
+        <st Contlex="N_p_kukkõ">sukkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">võrkko</l>
+      <stg>
+        <st Contlex="N_p_luikko">võrkko</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">jurmõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">jurmõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">bobrõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">bobrõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">joožikkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">joožikkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">läsive</l>
+      <stg>
+        <st Contlex="N_p_päive">läsive</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">tuimõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">tuimõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">tšülme</l>
+      <stg>
+        <st Contlex="N_p_päive">tšülme</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">võlkõ</l>
+      <stg>
+        <st Contlex="N_p2_aikõ..nn.1">võlkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">kummõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">kummõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">krõžovnikkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">krõžovnikkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">deelõ</l>
+      <stg>
+        <st Contlex="N_p1_ahkõrõ..nn.1">deelõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">luikko</l>
+      <stg>
+        <st Contlex="N_p_luikko">luikko</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">petäje</l>
+      <stg>
+        <st Contlex="N_p_päive">petäje</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">tuttavõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">tuttavõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">kõrvõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">kõrvõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">seukko</l>
+      <stg>
+        <st Contlex="N_p_luikko">seukko</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">fökle</l>
+      <stg>
+        <st Contlex="N_p_päive">fökle</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">dobrõ</l>
+      <stg>
+        <st Contlex="N_p1_ahkõrõ..nn.1">dobrõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">partõ</l>
+      <stg>
+        <st Contlex="N_p_partõ">partõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">eine</l>
+      <stg>
+        <st Contlex="N_p_päive">eine</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">õzrikko</l>
+      <stg>
+        <st Contlex="N_p_luikko">õzrikko</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">tuttavõ</l>
+      <stg>
+        <st Contlex="N_p1_ahkõrõ..nn.1">tuttavõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">filmõ</l>
+      <stg>
+        <st Contlex="N_p1_ahkõrõ..nn.1">filmõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">vihmõ</l>
+      <stg>
+        <st Contlex="N_p1_ahkõrõ..nn.1">vihmõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">rehtele</l>
+      <stg>
+        <st Contlex="N_p_päive">rehtele</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">konnõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">konnõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">õzrõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">õzrõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">kuhjõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">kuhjõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">naglõ</l>
+      <stg>
+        <st Contlex="N_p1_ahkõrõ..nn.1">naglõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">õravõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">õravõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">omõn</l>
+      <stg>
+        <st Contlex="N_p_omõn">omõn</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">luzikkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">luzikkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">muudrõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">muudrõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">bruudõ</l>
+      <stg>
+        <st Contlex="N_p1_ahkõrõ..nn.1">bruudõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">rankkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">rankkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">paikkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">paikkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">tihakkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">tihakkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">kõikk</l>
+      <stg>
+        <st Contlex="N_p_kõikk">kõikk</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">naizikko</l>
+      <stg>
+        <st Contlex="N_p_luikko">naizikko</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">luukkõ</l>
+      <stg>
+        <st Contlex="N_p_kukkõ">luukkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">tüttärikko</l>
+      <stg>
+        <st Contlex="N_p_luikko">tüttärikko</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">vad̕d̕akko</l>
+      <stg>
+        <st Contlex="N_p_luikko">vad̕d̕akko</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">harakkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">harakkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">tikkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">tikkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">silme</l>
+      <stg>
+        <st Contlex="N_p_päive">silme</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">kukko</l>
+      <stg>
+        <st Contlex="N_p_luikko">kukko</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">tarkkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">tarkkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">gribanikkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">gribanikkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">soolõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">soolõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">urokkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">urokkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">köühe</l>
+      <stg>
+        <st Contlex="N_p_päive">köühe</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">duumõ</l>
+      <stg>
+        <st Contlex="N_p1_ahkõrõ..nn.1">duumõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">sinin</l>
+      <stg>
+        <st Contlex="N_p_sinin">sinin</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">kuivõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">kuivõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">katti</l>
+      <stg>
+        <st Contlex="N_p5_tüttö..nn.1">katti</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">kavalõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">kavalõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">päive</l>
+      <stg>
+        <st Contlex="N_p_päive">päive</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">pettelikko</l>
+      <stg>
+        <st Contlex="N_p_luikko">pettelikko</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">sokko</l>
+      <stg>
+        <st Contlex="N_p_luikko">sokko</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">koirõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">koirõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">borkkanõ</l>
+      <stg>
+        <st Contlex="N_p1_ahkõrõ..nn.1">borkkanõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">nužnikkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">nužnikkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">tšerikko</l>
+      <stg>
+        <st Contlex="N_p_luikko">tšerikko</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">kopekkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">kopekkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">vunukkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">vunukkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">petšnikkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">petšnikkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">seine</l>
+      <stg>
+        <st Contlex="N_p_päive">seine</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">ämme</l>
+      <stg>
+        <st Contlex="N_p_päive">ämme</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">ikolookkõ</l>
+      <stg>
+        <st Contlex="N_p_kukkõ">ikolookkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">iivõ</l>
+      <stg>
+        <st Contlex="N_p1_ahkõrõ..nn.1">iivõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">soolõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">soolõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">bukvõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">bukvõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">vohmõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">vohmõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">vakkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">vakkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">võimõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">võimõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">kukkõ</l>
+      <stg>
+        <st Contlex="N_p_kukkõ">kukkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">nelle</l>
+      <stg>
+        <st Contlex="N_p_päive">nelle</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">obakkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">obakkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">filmõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">filmõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">kuuluvõ</l>
+      <stg>
+        <st Contlex="N_p_koirõ">kuuluvõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">grammõ</l>
+      <stg>
+        <st Contlex="N_p1_ahkõrõ..nn.1">grammõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">domovikkõ</l>
+      <stg>
+        <st Contlex="N_p_luzikkõ">domovikkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">katti</l>
+      <stg>
+        <st Contlex="N_p_katti">katti</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">äjje</l>
+      <stg>
+        <st Contlex="N_p_päive">äjje</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N">hoikkõ</l>
+      <stg>
+        <st Contlex="N_p_kukkõ">hoikkõ</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="votic-paradigm-extract" type="db"/>
+    </sources>
+    <mg relId="0">
+      <semantics/>
+      <tg xml:lang="fin">
+        <!-- Giellatekno interlingua translation equivalent not yet in LMF -->
+        <t pos=""/>
+      </tg>
+    </mg>
+  </e>
+</r>

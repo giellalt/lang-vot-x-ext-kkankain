@@ -1,0 +1,2064 @@
+<Lexicon lang="vot">
+  <ParadigmPattern>
+    <feat att="id" val="asAapõ"/>
+    <feat att="comment" val="inflectional paradigm pattern for aapõ"/>
+    <feat att="example" val="aapõ"/>
+    <feat att="partOfSpeech" val="noun"/>
+    <AttestedVariableValues>
+      <feat att="1" val="aa"/>
+    </AttestedVariableValues>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="nominative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="põ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="nominative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="võd"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="genitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="va"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="genitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="põje"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="partitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="pa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="partitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="poi"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="illative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="paa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="illative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="pasõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="illative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="poisõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="inessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="vaz"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="inessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="voiz"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="elative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="võssõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="elative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="poissõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="allative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="võllõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="allative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="poillõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="adessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="võl"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="adessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="poil"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="ablative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="võssi"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="ablative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="poissi"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="translative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="passi"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="translative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="poissi"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="terminative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="passaa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="terminative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="poissaa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="comitative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="vaka"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="comitative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="poika"/>
+      </Process>
+    </TransformSet>
+  </ParadigmPattern>
+  <ParadigmPattern>
+    <feat att="id" val="asPoikõ"/>
+    <feat att="comment" val="inflectional paradigm pattern for poikõ"/>
+    <feat att="example" val="poikõ"/>
+    <feat att="partOfSpeech" val="noun"/>
+    <AttestedVariableValues>
+      <feat att="1" val="poi"/>
+    </AttestedVariableValues>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="nominative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="nominative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gõd"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="genitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ga"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="genitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ki"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="genitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kije"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="partitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ka"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="partitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kaa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="partitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ki"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="partitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kitõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="illative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kaa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="illative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kasõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="illative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ki"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="illative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kisõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="inessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gõz"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="inessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kiz"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="elative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gõssõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="elative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kissõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="allative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gõllõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="allative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="killõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="adessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gõl"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="adessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kil"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="ablative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gõltõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="ablative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kiltõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="translative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gõssi"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="translative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kissi"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="terminative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kassaa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="terminative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kissaa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="comitative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gaka"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="comitative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kika"/>
+      </Process>
+    </TransformSet>
+  </ParadigmPattern>
+  <ParadigmPattern>
+    <feat att="id" val="asAikõ"/>
+    <feat att="comment" val="inflectional paradigm pattern for aikõ"/>
+    <feat att="example" val="aikõ"/>
+    <feat att="partOfSpeech" val="noun"/>
+    <AttestedVariableValues>
+      <feat att="1" val="ai"/>
+    </AttestedVariableValues>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="nominative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="nominative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gõd"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="genitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ga"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="genitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="koi"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="genitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kojõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="partitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ka"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="partitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kaa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="partitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="koi"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="partitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="koitõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="illative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ka"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="illative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kasõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="illative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="koisõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="inessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gõz"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="inessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="koiz"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="elative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gõssõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="elative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="koissõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="allative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gõllõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="allative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="koillõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="adessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gõl"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="adessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="koil"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="ablative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gõltõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="ablative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="koiltõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="translative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gõssi"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="translative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="koissi"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="terminative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="kassaa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="terminative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="koissaa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="comitative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="gaka"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="comitative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="koika"/>
+      </Process>
+    </TransformSet>
+  </ParadigmPattern>
+  <ParadigmPattern>
+    <feat att="id" val="asAmmõz"/>
+    <feat att="comment" val="inflectional paradigm pattern for ammõz"/>
+    <feat att="example" val="ammõz"/>
+    <feat att="partOfSpeech" val="noun"/>
+    <AttestedVariableValues>
+      <feat att="1" val="am"/>
+    </AttestedVariableValues>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="nominative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="mõz"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="nominative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="pad"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="genitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="pa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="genitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="paijõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="partitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="massõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="partitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="paitõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="illative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="pasõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="illative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="paisõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="inessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="paz"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="inessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="paiz"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="elative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="passõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="elative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="paissõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="allative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="pallõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="allative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="paillõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="adessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="pal"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="adessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="pail"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="ablative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="paltõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="ablative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="pailtõ"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="translative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="passi"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="translative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="paissi"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="terminative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="passaa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="terminative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="paissaa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="comitative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="paka"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="comitative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="paika"/>
+      </Process>
+    </TransformSet>
+  </ParadigmPattern>
+  <ParadigmPattern>
+    <feat att="id" val="asTüttö"/>
+    <feat att="comment" val="inflectional paradigm pattern for tüttö"/>
+    <feat att="example" val="tüttö"/>
+    <feat att="partOfSpeech" val="noun"/>
+    <AttestedVariableValues>
+      <feat att="1" val="tüt"/>
+      <feat att="2" val="ö"/>
+    </AttestedVariableValues>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="nominative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="nominative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="d"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="genitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="genitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="i"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="genitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="je"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="partitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ä"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="partitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="i"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="partitive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ite"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="illative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="se"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="illative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ise"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="inessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="z"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="inessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="iz"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="elative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="sse"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="elative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="isse"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="allative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="lle"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="allative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ille"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="adessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="l"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="adessive"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="il"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="ablative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="lte"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="ablative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ilte"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="translative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ssi"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="translative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="issi"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="terminative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ssaa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="terminative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="issaa"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="singular"/>
+        <feat att="grammaticalCase" val="comitative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ka"/>
+      </Process>
+    </TransformSet>
+    <TransformSet>
+      <GrammaticalFeatures>
+        <feat att="grammaticalNumber" val="plural"/>
+        <feat att="grammaticalCase" val="comitative"/>
+      </GrammaticalFeatures>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="1"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="t"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="variableNumber" val="2"/>
+      </Process>
+      <Process>
+        <feat att="operator" val="addAfter"/>
+        <feat att="stringValue" val="ika"/>
+      </Process>
+    </TransformSet>
+  </ParadigmPattern>
+</Lexicon>

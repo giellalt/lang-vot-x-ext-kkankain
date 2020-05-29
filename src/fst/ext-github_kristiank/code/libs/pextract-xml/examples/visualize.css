@@ -1,0 +1,29 @@
+* {
+  border: 1px solid blue;
+  font-family: sans;
+  padding: 1px;
+  margin: 3px 3px 3px 3px;
+  margin-bottom: 3px;
+  display: inline-flex;
+}
+
+paradigm-file {
+  display: block;
+  border: none;
+  padding: 0px;
+  white-space: nowrap;
+}
+
+paradigm {
+  display: table;
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+
+paradigm-description {
+  background-color: lavenderblush;
+}
+
+variable-values {
+  background-color: lightblue;
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:fn="http://www.w3.org/2005/xpath-functions"
+  xmlns:dfdl="http://www.ogf.org/dfdl/dfdl-1.0/"
+  xmlns:pextract="http://keeleleek.ee/pextract"
+  targetNamespace="http://keeleleek.ee/pextract"
+  elementFormDefault="qualified"
+  attributeFormDefault="unqualified">
+
+<xs:include schemaLocation="lib/built-in-formats.xsd" />
+
+<xs:annotation>
+  <xs:appinfo source="http://www.ogf.org/dfdl/">
+    <dfdl:format  ref="pextract:daffodilTest1" separator="" initiator=""
+      terminator="" leadingSkip='0' textTrimKind="none" initiatedContent="no"
+      alignment="implicit" alignmentUnits="bits" trailingSkip="0" ignoreCase="no"
+      separatorPosition="infix" occursCountKind="implicit"
+      emptyValueDelimiterPolicy="both" representation="text" textNumberRep="standard"
+      lengthKind="delimited" encoding="UTF-8" />
+  </xs:appinfo>
+</xs:annotation>
+
+<!-- The document element is a 'paradigm-file' -->
+<xs:element name="paradigm-file">
+    <xs:complexType>
+      <!-- A paradigm-file consists of rows that each describe a 'paradigm' -->
+      <xs:sequence dfdl:separator="%NL;" dfdl:separatorPosition="postfix">
+        <xs:element name="paradigm" maxOccurs="unbounded" dfdl:occursCountKind="parsed">
+          <xs:complexType>
+            <!-- a 'paradigm' consists of two parts (separated by a tab):
+                 1) a 'paradigm-description' and
+                 2) a list of attested 'variable-values'
+            -->
+            <xs:sequence dfdl:separator="%HT;">
+              <!-- The first part of a 'paradigm' is the 'paradigm-description' -->
+              <xs:element name="paradigm-description">
+                <xs:complexType>
+                  <!-- A 'paradigm-description' consists of 'paradigm-cells'  -->
+                  <xs:sequence dfdl:separator="#">
+                    <xs:element name="paradigm-cell" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <!-- A 'paradigm-cell' consists of two parts:
+                             1) a 'pattern' and
+                             2) the patterns 'msd-descriptions' -->
+                        <xs:sequence>
+                          <xs:element name="pattern" dfdl:terminator=":">
+                            <xs:complexType>
+                              <xs:sequence dfdl:separator="+" dfdl:separatorPosition="infix" dfdl:separatorSuppressionPolicy="trailingEmpty">
+                                <!-- A 'pattern' consists of 'pattern-part' that are either:
+                                     @todo 1) variables
+                                     @todo 2) constants
+                                -->
+                                <xs:element name="pattern-part" type="xs:string" maxOccurs="unbounded" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <!-- The 'msd-description' hold a list of morphosyntactic features (key-value pairs) -->
+                          <xs:element name="msd-description">
+                            <xs:complexType>
+                              <xs:sequence dfdl:separator=",">
+                                <xs:element name="feature" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="name"  type="xs:string" dfdl:terminator="=" />
+                                      <xs:element name="value" type="xs:string"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <!-- The second part of a paradigm is a list of attested 'variable-values' -->
+              <xs:element name="variable-values">
+                <xs:complexType>
+                  <xs:sequence dfdl:separator="#" dfdl:separatorPosition="infix" dfdl:separatorSuppressionPolicy="trailingEmpty">
+                    <xs:element name="variable-set" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence dfdl:separator="," dfdl:separatorPosition="infix" dfdl:separatorSuppressionPolicy="trailingEmpty">
+                          <xs:element name="variable" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="variable-number" type="xs:integer" dfdl:terminator="=" />
+                                <xs:element name="variable-value"  type="xs:string"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>
