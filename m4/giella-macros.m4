@@ -322,7 +322,7 @@ AC_ARG_WITH([forrest],
             [AS_HELP_STRING([--with-forrest=DIRECTORY],
                             [search forrest in DIRECTORY @<:@default=PATH@:>@])],
             [with_forrest=$withval],
-            [with_forrest=yes])
+            [with_forrest=no])
 AC_PATH_PROG([FORREST], [forrest], [], [$PATH$PATH_SEPARATOR$with_forrest])
 AC_MSG_CHECKING([whether to do forrest validation of in-source documentation])
 AS_IF([test "x$GAWK" != x], [
