@@ -1,0 +1,9 @@
+name = "Votic (kkankain)"
+version = "0.0.1"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.vot-x-ext-kkankain"
+
+[windows]
+system_product_code = "{77C99E0B-9A22-4382-A426-D941F13BD77A}_is1"
+# extra_locales = { vot = "vot-x-ext-kkankain" }
