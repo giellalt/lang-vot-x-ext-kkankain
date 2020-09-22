@@ -1,4 +1,4 @@
-name = "Nynorsk (Apertium)"
+name = "Votic (Kankainen)"
 version = "@SPELLERVERSION@"
 
 [macos]
