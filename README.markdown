@@ -1,15 +1,15 @@
 The Votic morphology and tools
 ==========================================
 
-[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-vot)](https://github.com/giellalt/lang-vot/issues)
-[![Build Status](https://github.com/giellalt/lang-vot/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-vot/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-vot)](https://raw.githubusercontent.com/giellalt/lang-vot/develop/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-vot-x-ext-kkankain)](https://github.com/giellalt/lang-vot-x-ext-kkankain/issues)
+[![Build Status](https://github.com/giellalt/lang-vot-x-ext-kkankain/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-vot-x-ext-kkankain/actions)
+[![License](https://img.shields.io/github/license/giellalt/lang-vot-x-ext-kkankain)](https://raw.githubusercontent.com/giellalt/lang-vot-x-ext-kkankain/main/LICENSE)
 
 This repository contains finite state source files for the Votic language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under __LICENCE__
 licence, also detailed in the
-[LICENCE](https://github.com/giellalt/lang-vot/blob/develop/LICENCE). The
+[LICENSE](https://github.com/giellalt/lang-vot-x-ext-kkankain/blob/main/LICENSE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
 
@@ -66,18 +66,18 @@ Downloading
 
 Using Git:
 ```
-git clone https://github.com/giellalt/lang-vot
+git clone https://github.com/giellalt/lang-vot-x-ext-kkankain
 ```
 
 Using Subversion:
 ```
-svn checkout https://github.com/giellalt/lang-vot.git/trunk lang-vot
+svn checkout https://github.com/giellalt/lang-vot-x-ext-kkankain.git/trunk lang-vot-x-ext-kkankain
 ```
 
 Building and installation
 -------------------------
 
-[INSTALL](https://github.com/giellalt/lang-vot/blob/develop/INSTALL)
+[INSTALL](https://github.com/giellalt/lang-vot-x-ext-kkankain/blob/main/INSTALL)
 describes the GNU build system in detail, but for most users it is the usual:
 
 ```sh
