@@ -3,7 +3,7 @@ The Votic morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-vot-x-ext-kkankain)](https://github.com/giellalt/lang-vot-x-ext-kkankain/issues)
 [![Build Status](https://github.com/giellalt/lang-vot-x-ext-kkankain/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-vot-x-ext-kkankain/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-vot-x-ext-kkankain)](https://raw.githubusercontent.com/giellalt/lang-vot-x-ext-kkankain/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-vot-x-ext-kkankain)](https://github.com/giellalt/lang-vot-x-ext-kkankain/blob/main/LICENSE)
 
 This repository contains finite state source files for the Votic language,
 for building morphological analysers, proofing tools
