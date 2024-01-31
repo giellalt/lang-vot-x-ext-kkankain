@@ -1,5 +1,17 @@
-name = "Votic (Kankainen)"
+name = "Votic"
 version = "0.1.1"
+
+# Name of the speller package in various languages.
+# The default is English + autonym:
+[speller.name]
+en = "Votic spellchecker (Kankainen)"
+vot = "Autonym spellchecker (Kankainen)"
+
+# Description of the speller package in various languages.
+# The default is English + autonym:
+[speller.description]
+en = "A spellchecker for Votic, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+vot = "TRANSLATE: A spellchecker for Votic, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
 
 [macos]
 system_pkg_id = "no.divvun.MacDivvun.vot-x-ext-kkankain"
