@@ -23,6 +23,12 @@ test: check
 update:
 	git subtree pull --prefix src/fst/ext-github_kristiank https://github.com/kristiank/MA-thesis.git master --squash
 
+# recurse all make devs just
+dev:
+	$(MAKE) dev -C tools/tokenisers
+	$(MAKE) dev -C tools/grammarcheckers
+	$(MAKE) dev -C tools/tts
+
 # Remove html tables created by some of the developer tools:
 clean-local:
 	rm -f *.html
