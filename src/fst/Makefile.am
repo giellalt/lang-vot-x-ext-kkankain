@@ -96,3 +96,4 @@ endif
 ##################################################################
 
 include $(top_srcdir)/../giella-core/am-shared/src-fst-dir-include.am
+include $(top_srcdir)/../giella-core/am-shared/devtest-include.am
