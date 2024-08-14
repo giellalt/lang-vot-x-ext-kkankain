@@ -21,7 +21,7 @@ banner:
 test: check
 
 update:
-	git subtree pull --prefix src/fst/ext-github_kristiank https://github.com/kristiank/MA-thesis.git master --squash
+	git subtree pull --prefix src/fst/morphology/ext-github_kristiank https://github.com/kristiank/MA-thesis.git master --squash
 
 # recurse all make devs just
 dev:
