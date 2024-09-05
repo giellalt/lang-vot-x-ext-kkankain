@@ -99,27 +99,26 @@ GT_DISTRO_SRCS=
 
 GIELLA_LOCAL_TARGETS=
 
-root.lexc: ext-github_kristiank-vot/root.lexc
+root.lexc: ext-github_kristiank/data/giellatekno/morphology/root.lexc
 	$(AM_V_CP)cp -f $< $@
 
-generated_files/affixes_%.lexc: ext-github_kristiank-vot/affixes/%.lexc
+generated_files/affixes_%.lexc: ext-github_kristiank/data/giellatekno/morphology/affixes/%.lexc
 	$(AM_V_CP)cp -f $< $@
 
-generated_files/stems_%.lexc: ext-github_kristiank-vot/stems/%.lexc
+generated_files/stems_%.lexc: ext-github_kristiank/data/giellatekno/morphology/stems/%.lexc
 	$(AM_V_CP)cp -f $< $@
 
-guesser.xfscript: ext-github_kristiank-vot/paradigms.xfscript
+guesser.xfscript: ext-github_kristiank/data/giellatekno/morphology/paradigms.xfscript
 	$(AM_V_CP)cp -f $< $@
 
 lexicon.%: lexicon.tmp.% guesser.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
 			[ \
-			 [ @\"guesser.$*\" \"+Err/Guess\":0 ] \
+			  [ @\"guesser.$*\" \"+Err/Guess\":0 ] \
 			| @\"$<\" ] \
 			;\n\
-		save stack $@\n\
-		quit\n" | $(XFST_TOOL)
-
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
 
 ### END: Local processing: ###
 
