@@ -193,6 +193,7 @@ am__installdirs = "$(DESTDIR)$(docdir)"
 DATA = $(doc_DATA)
 am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
 am__DIST_COMMON = $(srcdir)/Makefile.in \
+	$(top_srcdir)/../giella-core/am-shared/devtest-include.am \
 	$(top_srcdir)/../giella-core/am-shared/docs-dir-include.am \
 	$(top_srcdir)/../giella-core/am-shared/silent_build-include.am
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
@@ -250,6 +251,7 @@ GLANGUAGE = @GLANGUAGE@
 GRAMCHECKVERSION = @GRAMCHECKVERSION@
 GTCORE = @GTCORE@
 GTCORESH = @GTCORESH@
+GTGRAMTOOL = @GTGRAMTOOL@
 GTLANG = @GTLANG@
 GTLANG2 = @GTLANG2@
 GTLANGUAGE = @GTLANGUAGE@
@@ -343,6 +345,10 @@ SEE = @SEE@
 SET_MAKE = @SET_MAKE@
 SHELL = @SHELL@
 SPELLERVERSION = @SPELLERVERSION@
+SPELLER_DESC_ENG = @SPELLER_DESC_ENG@
+SPELLER_DESC_NATIVE = @SPELLER_DESC_NATIVE@
+SPELLER_NAME_ENG = @SPELLER_NAME_ENG@
+SPELLER_NAME_NATIVE = @SPELLER_NAME_NATIVE@
 STRIP = @STRIP@
 TAR = @TAR@
 TWOLC = @TWOLC@
@@ -418,9 +424,11 @@ ALLINONE_MD_PAGE = $(srcdir)/$(GTLANG).md
 LINKS = $(srcdir)/Links.md
 HEADER = $(srcdir)/index-header.md
 INDEX = $(srcdir)/index.md
+REPONAME = $(shell  grep '__REPO__' $(top_srcdir)/.gut/delta.toml | cut -d'"' -f2)
+# " reset syntax colouring - gets confused by the single double quote in the previous line
 
 # no regenerations while debugging
-doc_DATA = $(INDEX) $(LINKS) $(ALLINONE_MD_PAGE)
+doc_DATA = $(INDEX) $(LINKS) $(ALLINONE_MD_PAGE) lemmacount.json maturity.json
 DOCC2MDWIKI = $(GTCORE)/scripts/doccomments2ghpages.awk
 DOCC2MDWIKI_CG3 = $(GTCORE)/scripts/doccomments2ghpages-vislcg.awk
 GRAPHPLOTTER = $(GTCORE)/scripts/plot-speller-progress.R
@@ -697,7 +705,7 @@ MORE_VERBOSITY = $(if $(strip $(filter-out false,$(AM_V_P))),-v,-q)
 all: all-am
 
 .SUFFIXES:
-$(srcdir)/Makefile.in:  $(srcdir)/Makefile.am $(top_srcdir)/../giella-core/am-shared/docs-dir-include.am $(top_srcdir)/../giella-core/am-shared/silent_build-include.am $(am__configure_deps)
+$(srcdir)/Makefile.in:  $(srcdir)/Makefile.am $(top_srcdir)/../giella-core/am-shared/docs-dir-include.am $(top_srcdir)/../giella-core/am-shared/silent_build-include.am $(top_srcdir)/../giella-core/am-shared/devtest-include.am $(am__configure_deps)
 	@for dep in $?; do \
 	  case '$(am__configure_deps)' in \
 	    *$$dep*) \
@@ -717,7 +725,7 @@ Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
 	    echo ' cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__maybe_remake_depfiles)'; \
 	    cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__maybe_remake_depfiles);; \
 	esac;
-$(top_srcdir)/../giella-core/am-shared/docs-dir-include.am $(top_srcdir)/../giella-core/am-shared/silent_build-include.am $(am__empty):
+$(top_srcdir)/../giella-core/am-shared/docs-dir-include.am $(top_srcdir)/../giella-core/am-shared/silent_build-include.am $(top_srcdir)/../giella-core/am-shared/devtest-include.am $(am__empty):
 
 $(top_builddir)/config.status: $(top_srcdir)/configure $(CONFIG_STATUS_DEPENDENCIES)
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
@@ -932,8 +940,17 @@ regenerate-markdown: generate-markdown
 @WANT_SPELLERS_FALSE@	@echo need to configure --enable-spellers to generate statistics
 @WANT_SPELLERS_FALSE@	touch $@
 
+# Generate endpoint json file for shield.io lemma count badge.
+# Only to be stored in the gh-pages branch, ignored in main.
+$(srcdir)/lemmacount.json:
+	$(AM_V_GEN)$(GTCORE)/scripts/make-lemmacount.json.sh $(abs_top_srcdir) > $@
+
+# Generate a maturity.json file as endpoint for the maturity badge.
+$(srcdir)/maturity.json:
+	$(AM_V_GEN)$(GTCORE)/scripts/make-maturity.json.sh $(REPONAME) > $@
+
 # Convert source filenames to extracted documentation filenames, VPATH safe:
-# ../../../src/fst/stems/adverbs.lexc => src-fst-stems-adverbs.lexc.md
+# ../../../src/fst/morphology/stems/adverbs.lexc => src-fst-morphology-stems-adverbs.lexc.md
 define src2md
 $(addsuffix .md,$(subst /,-,$(subst $(top_srcdir)/,,$(1))))
 endef
@@ -963,9 +980,14 @@ $(foreach f,$(DOCSRC_XEROX),$(eval $(call make_md_files,$(f))))
 $(foreach f,$(DOCSRC_CG3),$(eval $(call make_md_files_cg3,$(f))))
 
 # Collect all target files into one big MD file:
+# Remove the VPATH prefix to create the header for each file/chapter:
 $(ALLINONE_MD_PAGE): $(VPATH_MDFILES)
-	$(AM_V_GEN)printf "# $(GLANGUAGE) description \n\nAll documents in one file\n\n" \
-	| cat - $(VPATH_MDFILES) > $@
+	$(AM_V_GEN)printf "# $(GLANGUAGE) language model documentation\n\nAll doc-comment documentation in one large file.\n" > $@
+	for f in $(VPATH_MDFILES); do \
+		header=$${f#"$(top_srcdir)/docs/"};\
+		printf "\n---\n\n# $$header \n\n" >> $@ ;\
+		cat $$f >> $@ ;\
+	done
 
 $(LINKS):
 	$(AM_V_GEN)for doc2md in $(DOCSRC_MDFILES) ; do \
@@ -979,27 +1001,42 @@ $(LINKS):
 		d2=`echo "$$d" | cut -d '/' -f 2` ;\
 		d3=`echo "$$d" | cut -d '/' -f 3` ;\
 		d4=`echo "$$d" | cut -d '/' -f 4` ;\
+		d5=`echo "$$d" | cut -d '/' -f 5` ;\
 		if test "x$$d1" != "x$$oldd1" ; then \
 			echo "* \`$$d1/\`" ;\
 			oldd1=$$d1 ;\
+			oldd2="";\
+			oldd3="";\
+			oldd4="";\
 		fi ; \
 		if test "x$$d2" = x ; then \
 			echo "    * [$$docname]($$html) ([src]($(REPOURL)/$$doc))" ;\
 		elif test "x$$d2" != "x$$oldd2" ; then \
 			echo "    * \`$$d2/\`" ;\
 			oldd2=$$d2 ;\
+			oldd3="";\
+			oldd4="";\
+			oldd5="";\
 		fi ; \
 		if test "x$$d3" = x -a "x$$d2" != x; then \
 			echo "        * [$$docname]($$html) ([src]($(REPOURL)/$$doc))" ;\
 		elif test "x$$d3" != "x$$oldd3" ; then \
 			echo "        * \`$$d3/\`" ;\
 			oldd3=$$d3 ;\
+			oldd4="";\
 		fi ; \
 		if test "x$$d4" = x -a "x$$d3" != x ; then \
 			echo "            * [$$docname]($$html) ([src]($(REPOURL)/$$doc))" ;\
 		elif test "x$$d4" != "x$$oldd4" ; then \
 			echo "            * \`$$d4/\`" ;\
 			oldd4=$$d4 ;\
+			oldd5="";\
+		fi ; \
+		if test "x$$d5" = x -a "x$$d4" != x ; then \
+			echo "                * [$$docname]($$html) ([src]($(REPOURL)/$$doc))" ;\
+		elif test "x$$d5" != "x$$oldd5" ; then \
+			echo "                * \`$$d5/\`" ;\
+			oldd5=$$d5 ;\
 		fi ; \
 	done > $@
 
@@ -1020,6 +1057,30 @@ clean-local:
 	$(AM_V_at)-rm -f docsrc.tmp mdfiles.tmp empty.md
 
 # vim: set ft=automake:
+
+.PHONY: devtest devtest-recursive devtest-local
+
+devtest: devtest-recursive
+
+devtest-recursive:
+	-for subdir in $(SUBDIRS); do \
+		if test "$$subdir" = . ; then \
+			continue; \
+		else   \
+			($(am__cd) $$subdir && $(MAKE) $(AM_MAKEFLAGS) $@) \
+		fi; \
+	done; \
+	$(MAKE) $(AM_FLAGS) devtest-local
+
+devtest-local:
+	-for t in $(TESTS) ; do \
+		echo "TEST: $$t" ;\
+		if test -f "./$$t" ; then \
+			srcdir=$(srcdir) GIELLA_CORE=$(GIELLA_CORE) "./$$t" ;\
+		else \
+			srcdir=$(srcdir) GIELLA_CORE=$(GIELLA_CORE) "$(srcdir)/$$t" ;\
+		fi ;\
+	done
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

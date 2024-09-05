@@ -1,21 +1,26 @@
-# Grammar checker tokenisation for vot
+# TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
-```
-$ make
-$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```sh
+make
+echo "ja, ja" \
+| hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 ```
 
 More usage examples:
-```
-$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```sh
+echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa \
+boasttu olmmoš, man mielde lahtuid." \
+| hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" \
+| hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+echo "márffibiillagáffe" \
+| hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 ```
 
 Pmatch documentation:
-<https://github.com/hfst/hfst/wiki/HfstPmatch>
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -49,12 +54,8 @@ remove empty analyses from other readings. Empty readings are also
 legal in CG, they get a default baseform equal to the wordform, but
 no tag to check, so it's safer to let hfst-tokenise handle them.
 
-Finally we mark as a token any sequence making up a:
-* known word in context
-* unknown (OOV) token in context
-* sequence of word and punctuation
-* URL in context
+Needs hfst-tokenise to output things differently depending on the tag they get
 
 * * *
 
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-vot-x-ext-kkankain/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-vot-x-ext-kkankain/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
