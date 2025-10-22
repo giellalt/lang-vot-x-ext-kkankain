@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-vot-x-ext-kkankain)](https://github.com/giellalt/lang-vot-x-ext-kkankain/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-vot)](https://github.com/giellalt/lang-vot/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-vot-x-ext-kkankain?label=CI)](https://builds.giellalt.org/pipelines/lang-vot-x-ext-kkankain/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/voti1245)
 
 This page documents the work on the **Votic language model**. 
 
