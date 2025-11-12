@@ -1,11 +1,8 @@
-spellername = "Votic"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
-en = "Votic spellchecker (Kankainen)"
-vot = "Autonym spellchecker (Kankainen)"
+en = "Votic spellchecker (Kankainen"
+vot = "Autonym spellchecker (Kankainen"
 
 # Description of the speller package in various languages.
 # The default is English + autonym:
@@ -19,3 +16,15 @@ system_pkg_id = "no.divvun.MacDivvun.vot-x-ext-kkankain"
 [windows]
 system_product_code = "{77C99E0B-9A22-4382-A426-D941F13BD77A}_is1"
 # extra_locales = { vot = "vot-x-ext-kkankain" }
+
+[package.speller]
+name = "Votic"
+version = "0.1.1"
+
+[package.grammar]
+name = "Votic"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Votic"
+version = "0.1.0"
