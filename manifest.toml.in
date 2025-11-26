@@ -29,3 +29,6 @@ version = "@GRAMCHECKVERSION@"
 name = "@GLANGUAGE@"
 version = "@TTSTEXTPROCVERSION@"
 
+[package.hyphenator]
+name = "@GLANGUAGE@"
+version = "@HYPHVERSION@"
