@@ -5,9 +5,9 @@
 {% include_relative language-map.md %}
 
 <div class="badges" markdown="1">
-[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-vot-x-ext-kkankain%2Fgh-pages%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html) <br/>
-![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-vot-x-ext-kkankain%2Fgh-pages%2Fbadgedata%2Ffst-lemmacount.json) <br/>
-[![Speller suggestion quality](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-vot-x-ext-kkankain%2Fgh-pages%2Fbadgedata%2Fspeller-suggestions.json)](typosreport/) <br/>
+[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-vot-x-ext-kkankain%2Fmain%2Fdocs%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html) <br/>
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-vot-x-ext-kkankain%2Fmain%2Fdocs%2Fbadgedata%2Ffst-lemmacount.json) <br/>
+[![Speller suggestion quality](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-vot-x-ext-kkankain%2Fmain%2Fdocs%2Fbadgedata%2Fspeller-suggestions.json)](typosreport/) <br/>
 [![License](https://img.shields.io/github/license/giellalt/lang-vot-x-ext-kkankain)](https://github.com/giellalt/lang-vot-x-ext-kkankain/blob/main/LICENSE) <br/>
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-vot)](https://github.com/giellalt/lang-vot/issues) <br/>
 [![Build Status](https://builds.giellalt.org/api/badge/lang-vot-x-ext-kkankain?label=CI)](https://builds.giellalt.org/pipelines/lang-vot-x-ext-kkankain/builds/latest) <br/>
