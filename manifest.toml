@@ -1,8 +1,8 @@
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
-en = "Votic spellchecker (Kankainen"
-vot = "Autonym spellchecker (Kankainen"
+en = "Votic spellchecker (Kankainen)"
+vot = "Autonym spellchecker (Kankainen)"
 
 # Description of the speller package in various languages.
 # The default is English + autonym:
